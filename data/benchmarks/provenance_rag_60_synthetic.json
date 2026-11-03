@@ -1,0 +1,4597 @@
+{
+  "name": "Provenance RAG 60-task synthetic benchmark",
+  "seed": 20261101,
+  "warning": "Every document is synthetic and fictional. This is a controlled mechanism test, not evidence about the web.",
+  "tasks": [
+    {
+      "id": "false_dilution_01",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Borealis service support polar export?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_01_primary",
+          "root_id": "false_dilution_01_spec",
+          "publisher": "Borealis specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Does the fictional Borealis service support polar export? No. Borealis Specification v1 says polar export is not implemented."
+        },
+        {
+          "id": "false_dilution_01_mirror_01",
+          "root_id": "false_dilution_01_mirror_root",
+          "publisher": "Borealis Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "false_dilution_01_mirror_02",
+          "root_id": "false_dilution_01_mirror_root",
+          "publisher": "Borealis Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "false_dilution_01_mirror_03",
+          "root_id": "false_dilution_01_mirror_root",
+          "publisher": "Borealis Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "false_dilution_01_mirror_04",
+          "root_id": "false_dilution_01_mirror_root",
+          "publisher": "Borealis Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "false_dilution_01_mirror_05",
+          "root_id": "false_dilution_01_mirror_root",
+          "publisher": "Borealis Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "false_dilution_01_mirror_06",
+          "root_id": "false_dilution_01_mirror_root",
+          "publisher": "Borealis Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "false_dilution_01_mirror_07",
+          "root_id": "false_dilution_01_mirror_root",
+          "publisher": "Borealis Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "false_dilution_01_mirror_08",
+          "root_id": "false_dilution_01_mirror_root",
+          "publisher": "Borealis Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "false_dilution_01_mirror_09",
+          "root_id": "false_dilution_01_mirror_root",
+          "publisher": "Borealis Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "false_dilution_01_mirror_10",
+          "root_id": "false_dilution_01_mirror_root",
+          "publisher": "Borealis Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_02",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Cirrus service support storm replication?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_02_primary",
+          "root_id": "false_dilution_02_spec",
+          "publisher": "Cirrus specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Cirrus Specification v1: Cirrus does not support storm replication. Requests must be rejected."
+        },
+        {
+          "id": "false_dilution_02_mirror_01",
+          "root_id": "false_dilution_02_mirror_root",
+          "publisher": "Cirrus Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "false_dilution_02_mirror_02",
+          "root_id": "false_dilution_02_mirror_root",
+          "publisher": "Cirrus Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "false_dilution_02_mirror_03",
+          "root_id": "false_dilution_02_mirror_root",
+          "publisher": "Cirrus Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "false_dilution_02_mirror_04",
+          "root_id": "false_dilution_02_mirror_root",
+          "publisher": "Cirrus Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "false_dilution_02_mirror_05",
+          "root_id": "false_dilution_02_mirror_root",
+          "publisher": "Cirrus Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "false_dilution_02_mirror_06",
+          "root_id": "false_dilution_02_mirror_root",
+          "publisher": "Cirrus Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "false_dilution_02_mirror_07",
+          "root_id": "false_dilution_02_mirror_root",
+          "publisher": "Cirrus Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "false_dilution_02_mirror_08",
+          "root_id": "false_dilution_02_mirror_root",
+          "publisher": "Cirrus Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "false_dilution_02_mirror_09",
+          "root_id": "false_dilution_02_mirror_root",
+          "publisher": "Cirrus Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "false_dilution_02_mirror_10",
+          "root_id": "false_dilution_02_mirror_root",
+          "publisher": "Cirrus Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_03",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Drift service support ember sync?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_03_primary",
+          "root_id": "false_dilution_03_spec",
+          "publisher": "Drift specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Does the fictional Drift service support ember sync? No. Drift Specification v1 says ember sync is not implemented."
+        },
+        {
+          "id": "false_dilution_03_mirror_01",
+          "root_id": "false_dilution_03_mirror_root",
+          "publisher": "Drift Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "false_dilution_03_mirror_02",
+          "root_id": "false_dilution_03_mirror_root",
+          "publisher": "Drift Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "false_dilution_03_mirror_03",
+          "root_id": "false_dilution_03_mirror_root",
+          "publisher": "Drift Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "false_dilution_03_mirror_04",
+          "root_id": "false_dilution_03_mirror_root",
+          "publisher": "Drift Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "false_dilution_03_mirror_05",
+          "root_id": "false_dilution_03_mirror_root",
+          "publisher": "Drift Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "false_dilution_03_mirror_06",
+          "root_id": "false_dilution_03_mirror_root",
+          "publisher": "Drift Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "false_dilution_03_mirror_07",
+          "root_id": "false_dilution_03_mirror_root",
+          "publisher": "Drift Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "false_dilution_03_mirror_08",
+          "root_id": "false_dilution_03_mirror_root",
+          "publisher": "Drift Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "false_dilution_03_mirror_09",
+          "root_id": "false_dilution_03_mirror_root",
+          "publisher": "Drift Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "false_dilution_03_mirror_10",
+          "root_id": "false_dilution_03_mirror_root",
+          "publisher": "Drift Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_04",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Ember service support fjord routing?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_04_primary",
+          "root_id": "false_dilution_04_spec",
+          "publisher": "Ember specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Ember Specification v1: Ember does not support fjord routing. Requests must be rejected."
+        },
+        {
+          "id": "false_dilution_04_mirror_01",
+          "root_id": "false_dilution_04_mirror_root",
+          "publisher": "Ember Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "false_dilution_04_mirror_02",
+          "root_id": "false_dilution_04_mirror_root",
+          "publisher": "Ember Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "false_dilution_04_mirror_03",
+          "root_id": "false_dilution_04_mirror_root",
+          "publisher": "Ember Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "false_dilution_04_mirror_04",
+          "root_id": "false_dilution_04_mirror_root",
+          "publisher": "Ember Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "false_dilution_04_mirror_05",
+          "root_id": "false_dilution_04_mirror_root",
+          "publisher": "Ember Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "false_dilution_04_mirror_06",
+          "root_id": "false_dilution_04_mirror_root",
+          "publisher": "Ember Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "false_dilution_04_mirror_07",
+          "root_id": "false_dilution_04_mirror_root",
+          "publisher": "Ember Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "false_dilution_04_mirror_08",
+          "root_id": "false_dilution_04_mirror_root",
+          "publisher": "Ember Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "false_dilution_04_mirror_09",
+          "root_id": "false_dilution_04_mirror_root",
+          "publisher": "Ember Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "false_dilution_04_mirror_10",
+          "root_id": "false_dilution_04_mirror_root",
+          "publisher": "Ember Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_05",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Fjord service support gale cache?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_05_primary",
+          "root_id": "false_dilution_05_spec",
+          "publisher": "Fjord specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Does the fictional Fjord service support gale cache? No. Fjord Specification v1 says gale cache is not implemented."
+        },
+        {
+          "id": "false_dilution_05_mirror_01",
+          "root_id": "false_dilution_05_mirror_root",
+          "publisher": "Fjord Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "false_dilution_05_mirror_02",
+          "root_id": "false_dilution_05_mirror_root",
+          "publisher": "Fjord Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "false_dilution_05_mirror_03",
+          "root_id": "false_dilution_05_mirror_root",
+          "publisher": "Fjord Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "false_dilution_05_mirror_04",
+          "root_id": "false_dilution_05_mirror_root",
+          "publisher": "Fjord Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "false_dilution_05_mirror_05",
+          "root_id": "false_dilution_05_mirror_root",
+          "publisher": "Fjord Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "false_dilution_05_mirror_06",
+          "root_id": "false_dilution_05_mirror_root",
+          "publisher": "Fjord Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "false_dilution_05_mirror_07",
+          "root_id": "false_dilution_05_mirror_root",
+          "publisher": "Fjord Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "false_dilution_05_mirror_08",
+          "root_id": "false_dilution_05_mirror_root",
+          "publisher": "Fjord Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "false_dilution_05_mirror_09",
+          "root_id": "false_dilution_05_mirror_root",
+          "publisher": "Fjord Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "false_dilution_05_mirror_10",
+          "root_id": "false_dilution_05_mirror_root",
+          "publisher": "Fjord Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_06",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Gale service support harbor mirror?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_06_primary",
+          "root_id": "false_dilution_06_spec",
+          "publisher": "Gale specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Gale Specification v1: Gale does not support harbor mirror. Requests must be rejected."
+        },
+        {
+          "id": "false_dilution_06_mirror_01",
+          "root_id": "false_dilution_06_mirror_root",
+          "publisher": "Gale Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "false_dilution_06_mirror_02",
+          "root_id": "false_dilution_06_mirror_root",
+          "publisher": "Gale Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "false_dilution_06_mirror_03",
+          "root_id": "false_dilution_06_mirror_root",
+          "publisher": "Gale Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "false_dilution_06_mirror_04",
+          "root_id": "false_dilution_06_mirror_root",
+          "publisher": "Gale Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "false_dilution_06_mirror_05",
+          "root_id": "false_dilution_06_mirror_root",
+          "publisher": "Gale Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "false_dilution_06_mirror_06",
+          "root_id": "false_dilution_06_mirror_root",
+          "publisher": "Gale Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "false_dilution_06_mirror_07",
+          "root_id": "false_dilution_06_mirror_root",
+          "publisher": "Gale Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "false_dilution_06_mirror_08",
+          "root_id": "false_dilution_06_mirror_root",
+          "publisher": "Gale Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "false_dilution_06_mirror_09",
+          "root_id": "false_dilution_06_mirror_root",
+          "publisher": "Gale Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "false_dilution_06_mirror_10",
+          "root_id": "false_dilution_06_mirror_root",
+          "publisher": "Gale Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_07",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Harbor service support ion archive?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_07_primary",
+          "root_id": "false_dilution_07_spec",
+          "publisher": "Harbor specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Does the fictional Harbor service support ion archive? No. Harbor Specification v1 says ion archive is not implemented."
+        },
+        {
+          "id": "false_dilution_07_mirror_01",
+          "root_id": "false_dilution_07_mirror_root",
+          "publisher": "Harbor Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "false_dilution_07_mirror_02",
+          "root_id": "false_dilution_07_mirror_root",
+          "publisher": "Harbor Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "false_dilution_07_mirror_03",
+          "root_id": "false_dilution_07_mirror_root",
+          "publisher": "Harbor Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "false_dilution_07_mirror_04",
+          "root_id": "false_dilution_07_mirror_root",
+          "publisher": "Harbor Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "false_dilution_07_mirror_05",
+          "root_id": "false_dilution_07_mirror_root",
+          "publisher": "Harbor Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "false_dilution_07_mirror_06",
+          "root_id": "false_dilution_07_mirror_root",
+          "publisher": "Harbor Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "false_dilution_07_mirror_07",
+          "root_id": "false_dilution_07_mirror_root",
+          "publisher": "Harbor Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "false_dilution_07_mirror_08",
+          "root_id": "false_dilution_07_mirror_root",
+          "publisher": "Harbor Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "false_dilution_07_mirror_09",
+          "root_id": "false_dilution_07_mirror_root",
+          "publisher": "Harbor Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "false_dilution_07_mirror_10",
+          "root_id": "false_dilution_07_mirror_root",
+          "publisher": "Harbor Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_08",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Ion service support juniper relay?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_08_primary",
+          "root_id": "false_dilution_08_spec",
+          "publisher": "Ion specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Ion Specification v1: Ion does not support juniper relay. Requests must be rejected."
+        },
+        {
+          "id": "false_dilution_08_mirror_01",
+          "root_id": "false_dilution_08_mirror_root",
+          "publisher": "Ion Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "false_dilution_08_mirror_02",
+          "root_id": "false_dilution_08_mirror_root",
+          "publisher": "Ion Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "false_dilution_08_mirror_03",
+          "root_id": "false_dilution_08_mirror_root",
+          "publisher": "Ion Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "false_dilution_08_mirror_04",
+          "root_id": "false_dilution_08_mirror_root",
+          "publisher": "Ion Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "false_dilution_08_mirror_05",
+          "root_id": "false_dilution_08_mirror_root",
+          "publisher": "Ion Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "false_dilution_08_mirror_06",
+          "root_id": "false_dilution_08_mirror_root",
+          "publisher": "Ion Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "false_dilution_08_mirror_07",
+          "root_id": "false_dilution_08_mirror_root",
+          "publisher": "Ion Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "false_dilution_08_mirror_08",
+          "root_id": "false_dilution_08_mirror_root",
+          "publisher": "Ion Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "false_dilution_08_mirror_09",
+          "root_id": "false_dilution_08_mirror_root",
+          "publisher": "Ion Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "false_dilution_08_mirror_10",
+          "root_id": "false_dilution_08_mirror_root",
+          "publisher": "Ion Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_09",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Juniper service support kestrel stream?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_09_primary",
+          "root_id": "false_dilution_09_spec",
+          "publisher": "Juniper specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Does the fictional Juniper service support kestrel stream? No. Juniper Specification v1 says kestrel stream is not implemented."
+        },
+        {
+          "id": "false_dilution_09_mirror_01",
+          "root_id": "false_dilution_09_mirror_root",
+          "publisher": "Juniper Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "false_dilution_09_mirror_02",
+          "root_id": "false_dilution_09_mirror_root",
+          "publisher": "Juniper Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "false_dilution_09_mirror_03",
+          "root_id": "false_dilution_09_mirror_root",
+          "publisher": "Juniper Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "false_dilution_09_mirror_04",
+          "root_id": "false_dilution_09_mirror_root",
+          "publisher": "Juniper Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "false_dilution_09_mirror_05",
+          "root_id": "false_dilution_09_mirror_root",
+          "publisher": "Juniper Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "false_dilution_09_mirror_06",
+          "root_id": "false_dilution_09_mirror_root",
+          "publisher": "Juniper Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "false_dilution_09_mirror_07",
+          "root_id": "false_dilution_09_mirror_root",
+          "publisher": "Juniper Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "false_dilution_09_mirror_08",
+          "root_id": "false_dilution_09_mirror_root",
+          "publisher": "Juniper Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "false_dilution_09_mirror_09",
+          "root_id": "false_dilution_09_mirror_root",
+          "publisher": "Juniper Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "false_dilution_09_mirror_10",
+          "root_id": "false_dilution_09_mirror_root",
+          "publisher": "Juniper Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_10",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Kestrel service support lumen index?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_10_primary",
+          "root_id": "false_dilution_10_spec",
+          "publisher": "Kestrel specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Kestrel Specification v1: Kestrel does not support lumen index. Requests must be rejected."
+        },
+        {
+          "id": "false_dilution_10_mirror_01",
+          "root_id": "false_dilution_10_mirror_root",
+          "publisher": "Kestrel Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "false_dilution_10_mirror_02",
+          "root_id": "false_dilution_10_mirror_root",
+          "publisher": "Kestrel Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "false_dilution_10_mirror_03",
+          "root_id": "false_dilution_10_mirror_root",
+          "publisher": "Kestrel Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "false_dilution_10_mirror_04",
+          "root_id": "false_dilution_10_mirror_root",
+          "publisher": "Kestrel Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "false_dilution_10_mirror_05",
+          "root_id": "false_dilution_10_mirror_root",
+          "publisher": "Kestrel Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "false_dilution_10_mirror_06",
+          "root_id": "false_dilution_10_mirror_root",
+          "publisher": "Kestrel Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "false_dilution_10_mirror_07",
+          "root_id": "false_dilution_10_mirror_root",
+          "publisher": "Kestrel Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "false_dilution_10_mirror_08",
+          "root_id": "false_dilution_10_mirror_root",
+          "publisher": "Kestrel Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "false_dilution_10_mirror_09",
+          "root_id": "false_dilution_10_mirror_root",
+          "publisher": "Kestrel Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "false_dilution_10_mirror_10",
+          "root_id": "false_dilution_10_mirror_root",
+          "publisher": "Kestrel Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_11",
+      "split": "test",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Lumen service support mistral queue?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_11_primary",
+          "root_id": "false_dilution_11_spec",
+          "publisher": "Lumen specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Does the fictional Lumen service support mistral queue? No. Lumen Specification v1 says mistral queue is not implemented."
+        },
+        {
+          "id": "false_dilution_11_mirror_01",
+          "root_id": "false_dilution_11_mirror_root",
+          "publisher": "Lumen Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "false_dilution_11_mirror_02",
+          "root_id": "false_dilution_11_mirror_root",
+          "publisher": "Lumen Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "false_dilution_11_mirror_03",
+          "root_id": "false_dilution_11_mirror_root",
+          "publisher": "Lumen Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "false_dilution_11_mirror_04",
+          "root_id": "false_dilution_11_mirror_root",
+          "publisher": "Lumen Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "false_dilution_11_mirror_05",
+          "root_id": "false_dilution_11_mirror_root",
+          "publisher": "Lumen Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "false_dilution_11_mirror_06",
+          "root_id": "false_dilution_11_mirror_root",
+          "publisher": "Lumen Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "false_dilution_11_mirror_07",
+          "root_id": "false_dilution_11_mirror_root",
+          "publisher": "Lumen Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "false_dilution_11_mirror_08",
+          "root_id": "false_dilution_11_mirror_root",
+          "publisher": "Lumen Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "false_dilution_11_mirror_09",
+          "root_id": "false_dilution_11_mirror_root",
+          "publisher": "Lumen Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "false_dilution_11_mirror_10",
+          "root_id": "false_dilution_11_mirror_root",
+          "publisher": "Lumen Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_12",
+      "split": "test",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Mistral service support nimbus lease?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_12_primary",
+          "root_id": "false_dilution_12_spec",
+          "publisher": "Mistral specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Mistral Specification v1: Mistral does not support nimbus lease. Requests must be rejected."
+        },
+        {
+          "id": "false_dilution_12_mirror_01",
+          "root_id": "false_dilution_12_mirror_root",
+          "publisher": "Mistral Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "false_dilution_12_mirror_02",
+          "root_id": "false_dilution_12_mirror_root",
+          "publisher": "Mistral Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "false_dilution_12_mirror_03",
+          "root_id": "false_dilution_12_mirror_root",
+          "publisher": "Mistral Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "false_dilution_12_mirror_04",
+          "root_id": "false_dilution_12_mirror_root",
+          "publisher": "Mistral Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "false_dilution_12_mirror_05",
+          "root_id": "false_dilution_12_mirror_root",
+          "publisher": "Mistral Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "false_dilution_12_mirror_06",
+          "root_id": "false_dilution_12_mirror_root",
+          "publisher": "Mistral Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "false_dilution_12_mirror_07",
+          "root_id": "false_dilution_12_mirror_root",
+          "publisher": "Mistral Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "false_dilution_12_mirror_08",
+          "root_id": "false_dilution_12_mirror_root",
+          "publisher": "Mistral Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "false_dilution_12_mirror_09",
+          "root_id": "false_dilution_12_mirror_root",
+          "publisher": "Mistral Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "false_dilution_12_mirror_10",
+          "root_id": "false_dilution_12_mirror_root",
+          "publisher": "Mistral Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_13",
+      "split": "test",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Nimbus service support orbit ledger?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_13_primary",
+          "root_id": "false_dilution_13_spec",
+          "publisher": "Nimbus specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Does the fictional Nimbus service support orbit ledger? No. Nimbus Specification v1 says orbit ledger is not implemented."
+        },
+        {
+          "id": "false_dilution_13_mirror_01",
+          "root_id": "false_dilution_13_mirror_root",
+          "publisher": "Nimbus Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "false_dilution_13_mirror_02",
+          "root_id": "false_dilution_13_mirror_root",
+          "publisher": "Nimbus Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "false_dilution_13_mirror_03",
+          "root_id": "false_dilution_13_mirror_root",
+          "publisher": "Nimbus Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "false_dilution_13_mirror_04",
+          "root_id": "false_dilution_13_mirror_root",
+          "publisher": "Nimbus Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "false_dilution_13_mirror_05",
+          "root_id": "false_dilution_13_mirror_root",
+          "publisher": "Nimbus Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "false_dilution_13_mirror_06",
+          "root_id": "false_dilution_13_mirror_root",
+          "publisher": "Nimbus Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "false_dilution_13_mirror_07",
+          "root_id": "false_dilution_13_mirror_root",
+          "publisher": "Nimbus Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "false_dilution_13_mirror_08",
+          "root_id": "false_dilution_13_mirror_root",
+          "publisher": "Nimbus Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "false_dilution_13_mirror_09",
+          "root_id": "false_dilution_13_mirror_root",
+          "publisher": "Nimbus Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "false_dilution_13_mirror_10",
+          "root_id": "false_dilution_13_mirror_root",
+          "publisher": "Nimbus Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_14",
+      "split": "test",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Orbit service support praxis gateway?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_14_primary",
+          "root_id": "false_dilution_14_spec",
+          "publisher": "Orbit specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Orbit Specification v1: Orbit does not support praxis gateway. Requests must be rejected."
+        },
+        {
+          "id": "false_dilution_14_mirror_01",
+          "root_id": "false_dilution_14_mirror_root",
+          "publisher": "Orbit Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "false_dilution_14_mirror_02",
+          "root_id": "false_dilution_14_mirror_root",
+          "publisher": "Orbit Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "false_dilution_14_mirror_03",
+          "root_id": "false_dilution_14_mirror_root",
+          "publisher": "Orbit Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "false_dilution_14_mirror_04",
+          "root_id": "false_dilution_14_mirror_root",
+          "publisher": "Orbit Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "false_dilution_14_mirror_05",
+          "root_id": "false_dilution_14_mirror_root",
+          "publisher": "Orbit Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "false_dilution_14_mirror_06",
+          "root_id": "false_dilution_14_mirror_root",
+          "publisher": "Orbit Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "false_dilution_14_mirror_07",
+          "root_id": "false_dilution_14_mirror_root",
+          "publisher": "Orbit Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "false_dilution_14_mirror_08",
+          "root_id": "false_dilution_14_mirror_root",
+          "publisher": "Orbit Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "false_dilution_14_mirror_09",
+          "root_id": "false_dilution_14_mirror_root",
+          "publisher": "Orbit Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "false_dilution_14_mirror_10",
+          "root_id": "false_dilution_14_mirror_root",
+          "publisher": "Orbit Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        }
+      ]
+    },
+    {
+      "id": "false_dilution_15",
+      "split": "test",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Praxis service support quartz backup?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "false_dilution_15_primary",
+          "root_id": "false_dilution_15_spec",
+          "publisher": "Praxis specification",
+          "role": "primary",
+          "stance": "refutes",
+          "reliability": 1.0,
+          "text": "Does the fictional Praxis service support quartz backup? No. Praxis Specification v1 says quartz backup is not implemented."
+        },
+        {
+          "id": "false_dilution_15_mirror_01",
+          "root_id": "false_dilution_15_mirror_root",
+          "publisher": "Praxis Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "false_dilution_15_mirror_02",
+          "root_id": "false_dilution_15_mirror_root",
+          "publisher": "Praxis Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "false_dilution_15_mirror_03",
+          "root_id": "false_dilution_15_mirror_root",
+          "publisher": "Praxis Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "false_dilution_15_mirror_04",
+          "root_id": "false_dilution_15_mirror_root",
+          "publisher": "Praxis Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "false_dilution_15_mirror_05",
+          "root_id": "false_dilution_15_mirror_root",
+          "publisher": "Praxis Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "false_dilution_15_mirror_06",
+          "root_id": "false_dilution_15_mirror_root",
+          "publisher": "Praxis Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "false_dilution_15_mirror_07",
+          "root_id": "false_dilution_15_mirror_root",
+          "publisher": "Praxis Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "false_dilution_15_mirror_08",
+          "root_id": "false_dilution_15_mirror_root",
+          "publisher": "Praxis Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "false_dilution_15_mirror_09",
+          "root_id": "false_dilution_15_mirror_root",
+          "publisher": "Praxis Mirror 9",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "false_dilution_15_mirror_10",
+          "root_id": "false_dilution_15_mirror_root",
+          "publisher": "Praxis Mirror 10",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_01",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Borealis service support polar export?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_01_primary",
+          "root_id": "true_repetition_01_spec",
+          "publisher": "Borealis documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Borealis documentation: polar export is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_01_mirror_01",
+          "root_id": "true_repetition_01_mirror_root",
+          "publisher": "Borealis Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "true_repetition_01_mirror_02",
+          "root_id": "true_repetition_01_mirror_root",
+          "publisher": "Borealis Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "true_repetition_01_mirror_03",
+          "root_id": "true_repetition_01_mirror_root",
+          "publisher": "Borealis Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "true_repetition_01_mirror_04",
+          "root_id": "true_repetition_01_mirror_root",
+          "publisher": "Borealis Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "true_repetition_01_mirror_05",
+          "root_id": "true_repetition_01_mirror_root",
+          "publisher": "Borealis Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "true_repetition_01_mirror_06",
+          "root_id": "true_repetition_01_mirror_root",
+          "publisher": "Borealis Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "true_repetition_01_mirror_07",
+          "root_id": "true_repetition_01_mirror_root",
+          "publisher": "Borealis Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "true_repetition_01_mirror_08",
+          "root_id": "true_repetition_01_mirror_root",
+          "publisher": "Borealis Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_02",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Cirrus service support storm replication?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_02_primary",
+          "root_id": "true_repetition_02_spec",
+          "publisher": "Cirrus documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Cirrus documentation: storm replication is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_02_mirror_01",
+          "root_id": "true_repetition_02_mirror_root",
+          "publisher": "Cirrus Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "true_repetition_02_mirror_02",
+          "root_id": "true_repetition_02_mirror_root",
+          "publisher": "Cirrus Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "true_repetition_02_mirror_03",
+          "root_id": "true_repetition_02_mirror_root",
+          "publisher": "Cirrus Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "true_repetition_02_mirror_04",
+          "root_id": "true_repetition_02_mirror_root",
+          "publisher": "Cirrus Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "true_repetition_02_mirror_05",
+          "root_id": "true_repetition_02_mirror_root",
+          "publisher": "Cirrus Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "true_repetition_02_mirror_06",
+          "root_id": "true_repetition_02_mirror_root",
+          "publisher": "Cirrus Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "true_repetition_02_mirror_07",
+          "root_id": "true_repetition_02_mirror_root",
+          "publisher": "Cirrus Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "true_repetition_02_mirror_08",
+          "root_id": "true_repetition_02_mirror_root",
+          "publisher": "Cirrus Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_03",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Drift service support ember sync?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_03_primary",
+          "root_id": "true_repetition_03_spec",
+          "publisher": "Drift documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Drift documentation: ember sync is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_03_mirror_01",
+          "root_id": "true_repetition_03_mirror_root",
+          "publisher": "Drift Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "true_repetition_03_mirror_02",
+          "root_id": "true_repetition_03_mirror_root",
+          "publisher": "Drift Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "true_repetition_03_mirror_03",
+          "root_id": "true_repetition_03_mirror_root",
+          "publisher": "Drift Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "true_repetition_03_mirror_04",
+          "root_id": "true_repetition_03_mirror_root",
+          "publisher": "Drift Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "true_repetition_03_mirror_05",
+          "root_id": "true_repetition_03_mirror_root",
+          "publisher": "Drift Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "true_repetition_03_mirror_06",
+          "root_id": "true_repetition_03_mirror_root",
+          "publisher": "Drift Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "true_repetition_03_mirror_07",
+          "root_id": "true_repetition_03_mirror_root",
+          "publisher": "Drift Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "true_repetition_03_mirror_08",
+          "root_id": "true_repetition_03_mirror_root",
+          "publisher": "Drift Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_04",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Ember service support fjord routing?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_04_primary",
+          "root_id": "true_repetition_04_spec",
+          "publisher": "Ember documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Ember documentation: fjord routing is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_04_mirror_01",
+          "root_id": "true_repetition_04_mirror_root",
+          "publisher": "Ember Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "true_repetition_04_mirror_02",
+          "root_id": "true_repetition_04_mirror_root",
+          "publisher": "Ember Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "true_repetition_04_mirror_03",
+          "root_id": "true_repetition_04_mirror_root",
+          "publisher": "Ember Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "true_repetition_04_mirror_04",
+          "root_id": "true_repetition_04_mirror_root",
+          "publisher": "Ember Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "true_repetition_04_mirror_05",
+          "root_id": "true_repetition_04_mirror_root",
+          "publisher": "Ember Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "true_repetition_04_mirror_06",
+          "root_id": "true_repetition_04_mirror_root",
+          "publisher": "Ember Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "true_repetition_04_mirror_07",
+          "root_id": "true_repetition_04_mirror_root",
+          "publisher": "Ember Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "true_repetition_04_mirror_08",
+          "root_id": "true_repetition_04_mirror_root",
+          "publisher": "Ember Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_05",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Fjord service support gale cache?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_05_primary",
+          "root_id": "true_repetition_05_spec",
+          "publisher": "Fjord documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Fjord documentation: gale cache is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_05_mirror_01",
+          "root_id": "true_repetition_05_mirror_root",
+          "publisher": "Fjord Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "true_repetition_05_mirror_02",
+          "root_id": "true_repetition_05_mirror_root",
+          "publisher": "Fjord Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "true_repetition_05_mirror_03",
+          "root_id": "true_repetition_05_mirror_root",
+          "publisher": "Fjord Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "true_repetition_05_mirror_04",
+          "root_id": "true_repetition_05_mirror_root",
+          "publisher": "Fjord Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "true_repetition_05_mirror_05",
+          "root_id": "true_repetition_05_mirror_root",
+          "publisher": "Fjord Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "true_repetition_05_mirror_06",
+          "root_id": "true_repetition_05_mirror_root",
+          "publisher": "Fjord Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "true_repetition_05_mirror_07",
+          "root_id": "true_repetition_05_mirror_root",
+          "publisher": "Fjord Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "true_repetition_05_mirror_08",
+          "root_id": "true_repetition_05_mirror_root",
+          "publisher": "Fjord Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_06",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Gale service support harbor mirror?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_06_primary",
+          "root_id": "true_repetition_06_spec",
+          "publisher": "Gale documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Gale documentation: harbor mirror is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_06_mirror_01",
+          "root_id": "true_repetition_06_mirror_root",
+          "publisher": "Gale Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "true_repetition_06_mirror_02",
+          "root_id": "true_repetition_06_mirror_root",
+          "publisher": "Gale Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "true_repetition_06_mirror_03",
+          "root_id": "true_repetition_06_mirror_root",
+          "publisher": "Gale Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "true_repetition_06_mirror_04",
+          "root_id": "true_repetition_06_mirror_root",
+          "publisher": "Gale Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "true_repetition_06_mirror_05",
+          "root_id": "true_repetition_06_mirror_root",
+          "publisher": "Gale Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "true_repetition_06_mirror_06",
+          "root_id": "true_repetition_06_mirror_root",
+          "publisher": "Gale Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "true_repetition_06_mirror_07",
+          "root_id": "true_repetition_06_mirror_root",
+          "publisher": "Gale Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "true_repetition_06_mirror_08",
+          "root_id": "true_repetition_06_mirror_root",
+          "publisher": "Gale Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_07",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Harbor service support ion archive?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_07_primary",
+          "root_id": "true_repetition_07_spec",
+          "publisher": "Harbor documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Harbor documentation: ion archive is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_07_mirror_01",
+          "root_id": "true_repetition_07_mirror_root",
+          "publisher": "Harbor Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "true_repetition_07_mirror_02",
+          "root_id": "true_repetition_07_mirror_root",
+          "publisher": "Harbor Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "true_repetition_07_mirror_03",
+          "root_id": "true_repetition_07_mirror_root",
+          "publisher": "Harbor Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "true_repetition_07_mirror_04",
+          "root_id": "true_repetition_07_mirror_root",
+          "publisher": "Harbor Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "true_repetition_07_mirror_05",
+          "root_id": "true_repetition_07_mirror_root",
+          "publisher": "Harbor Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "true_repetition_07_mirror_06",
+          "root_id": "true_repetition_07_mirror_root",
+          "publisher": "Harbor Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "true_repetition_07_mirror_07",
+          "root_id": "true_repetition_07_mirror_root",
+          "publisher": "Harbor Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "true_repetition_07_mirror_08",
+          "root_id": "true_repetition_07_mirror_root",
+          "publisher": "Harbor Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_08",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Ion service support juniper relay?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_08_primary",
+          "root_id": "true_repetition_08_spec",
+          "publisher": "Ion documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Ion documentation: juniper relay is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_08_mirror_01",
+          "root_id": "true_repetition_08_mirror_root",
+          "publisher": "Ion Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "true_repetition_08_mirror_02",
+          "root_id": "true_repetition_08_mirror_root",
+          "publisher": "Ion Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "true_repetition_08_mirror_03",
+          "root_id": "true_repetition_08_mirror_root",
+          "publisher": "Ion Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "true_repetition_08_mirror_04",
+          "root_id": "true_repetition_08_mirror_root",
+          "publisher": "Ion Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "true_repetition_08_mirror_05",
+          "root_id": "true_repetition_08_mirror_root",
+          "publisher": "Ion Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "true_repetition_08_mirror_06",
+          "root_id": "true_repetition_08_mirror_root",
+          "publisher": "Ion Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "true_repetition_08_mirror_07",
+          "root_id": "true_repetition_08_mirror_root",
+          "publisher": "Ion Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "true_repetition_08_mirror_08",
+          "root_id": "true_repetition_08_mirror_root",
+          "publisher": "Ion Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_09",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Juniper service support kestrel stream?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_09_primary",
+          "root_id": "true_repetition_09_spec",
+          "publisher": "Juniper documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Juniper documentation: kestrel stream is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_09_mirror_01",
+          "root_id": "true_repetition_09_mirror_root",
+          "publisher": "Juniper Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "true_repetition_09_mirror_02",
+          "root_id": "true_repetition_09_mirror_root",
+          "publisher": "Juniper Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "true_repetition_09_mirror_03",
+          "root_id": "true_repetition_09_mirror_root",
+          "publisher": "Juniper Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "true_repetition_09_mirror_04",
+          "root_id": "true_repetition_09_mirror_root",
+          "publisher": "Juniper Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "true_repetition_09_mirror_05",
+          "root_id": "true_repetition_09_mirror_root",
+          "publisher": "Juniper Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "true_repetition_09_mirror_06",
+          "root_id": "true_repetition_09_mirror_root",
+          "publisher": "Juniper Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "true_repetition_09_mirror_07",
+          "root_id": "true_repetition_09_mirror_root",
+          "publisher": "Juniper Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "true_repetition_09_mirror_08",
+          "root_id": "true_repetition_09_mirror_root",
+          "publisher": "Juniper Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_10",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Kestrel service support lumen index?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_10_primary",
+          "root_id": "true_repetition_10_spec",
+          "publisher": "Kestrel documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Kestrel documentation: lumen index is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_10_mirror_01",
+          "root_id": "true_repetition_10_mirror_root",
+          "publisher": "Kestrel Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "true_repetition_10_mirror_02",
+          "root_id": "true_repetition_10_mirror_root",
+          "publisher": "Kestrel Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "true_repetition_10_mirror_03",
+          "root_id": "true_repetition_10_mirror_root",
+          "publisher": "Kestrel Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "true_repetition_10_mirror_04",
+          "root_id": "true_repetition_10_mirror_root",
+          "publisher": "Kestrel Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "true_repetition_10_mirror_05",
+          "root_id": "true_repetition_10_mirror_root",
+          "publisher": "Kestrel Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "true_repetition_10_mirror_06",
+          "root_id": "true_repetition_10_mirror_root",
+          "publisher": "Kestrel Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "true_repetition_10_mirror_07",
+          "root_id": "true_repetition_10_mirror_root",
+          "publisher": "Kestrel Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "true_repetition_10_mirror_08",
+          "root_id": "true_repetition_10_mirror_root",
+          "publisher": "Kestrel Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_11",
+      "split": "test",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Lumen service support mistral queue?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_11_primary",
+          "root_id": "true_repetition_11_spec",
+          "publisher": "Lumen documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Lumen documentation: mistral queue is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_11_mirror_01",
+          "root_id": "true_repetition_11_mirror_root",
+          "publisher": "Lumen Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "true_repetition_11_mirror_02",
+          "root_id": "true_repetition_11_mirror_root",
+          "publisher": "Lumen Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "true_repetition_11_mirror_03",
+          "root_id": "true_repetition_11_mirror_root",
+          "publisher": "Lumen Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "true_repetition_11_mirror_04",
+          "root_id": "true_repetition_11_mirror_root",
+          "publisher": "Lumen Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "true_repetition_11_mirror_05",
+          "root_id": "true_repetition_11_mirror_root",
+          "publisher": "Lumen Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "true_repetition_11_mirror_06",
+          "root_id": "true_repetition_11_mirror_root",
+          "publisher": "Lumen Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "true_repetition_11_mirror_07",
+          "root_id": "true_repetition_11_mirror_root",
+          "publisher": "Lumen Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "true_repetition_11_mirror_08",
+          "root_id": "true_repetition_11_mirror_root",
+          "publisher": "Lumen Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_12",
+      "split": "test",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Mistral service support nimbus lease?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_12_primary",
+          "root_id": "true_repetition_12_spec",
+          "publisher": "Mistral documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Mistral documentation: nimbus lease is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_12_mirror_01",
+          "root_id": "true_repetition_12_mirror_root",
+          "publisher": "Mistral Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "true_repetition_12_mirror_02",
+          "root_id": "true_repetition_12_mirror_root",
+          "publisher": "Mistral Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "true_repetition_12_mirror_03",
+          "root_id": "true_repetition_12_mirror_root",
+          "publisher": "Mistral Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "true_repetition_12_mirror_04",
+          "root_id": "true_repetition_12_mirror_root",
+          "publisher": "Mistral Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "true_repetition_12_mirror_05",
+          "root_id": "true_repetition_12_mirror_root",
+          "publisher": "Mistral Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "true_repetition_12_mirror_06",
+          "root_id": "true_repetition_12_mirror_root",
+          "publisher": "Mistral Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "true_repetition_12_mirror_07",
+          "root_id": "true_repetition_12_mirror_root",
+          "publisher": "Mistral Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "true_repetition_12_mirror_08",
+          "root_id": "true_repetition_12_mirror_root",
+          "publisher": "Mistral Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_13",
+      "split": "test",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Nimbus service support orbit ledger?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_13_primary",
+          "root_id": "true_repetition_13_spec",
+          "publisher": "Nimbus documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Nimbus documentation: orbit ledger is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_13_mirror_01",
+          "root_id": "true_repetition_13_mirror_root",
+          "publisher": "Nimbus Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "true_repetition_13_mirror_02",
+          "root_id": "true_repetition_13_mirror_root",
+          "publisher": "Nimbus Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "true_repetition_13_mirror_03",
+          "root_id": "true_repetition_13_mirror_root",
+          "publisher": "Nimbus Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "true_repetition_13_mirror_04",
+          "root_id": "true_repetition_13_mirror_root",
+          "publisher": "Nimbus Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "true_repetition_13_mirror_05",
+          "root_id": "true_repetition_13_mirror_root",
+          "publisher": "Nimbus Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "true_repetition_13_mirror_06",
+          "root_id": "true_repetition_13_mirror_root",
+          "publisher": "Nimbus Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "true_repetition_13_mirror_07",
+          "root_id": "true_repetition_13_mirror_root",
+          "publisher": "Nimbus Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "true_repetition_13_mirror_08",
+          "root_id": "true_repetition_13_mirror_root",
+          "publisher": "Nimbus Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_14",
+      "split": "test",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Orbit service support praxis gateway?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_14_primary",
+          "root_id": "true_repetition_14_spec",
+          "publisher": "Orbit documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Orbit documentation: praxis gateway is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_14_mirror_01",
+          "root_id": "true_repetition_14_mirror_root",
+          "publisher": "Orbit Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "true_repetition_14_mirror_02",
+          "root_id": "true_repetition_14_mirror_root",
+          "publisher": "Orbit Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "true_repetition_14_mirror_03",
+          "root_id": "true_repetition_14_mirror_root",
+          "publisher": "Orbit Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "true_repetition_14_mirror_04",
+          "root_id": "true_repetition_14_mirror_root",
+          "publisher": "Orbit Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "true_repetition_14_mirror_05",
+          "root_id": "true_repetition_14_mirror_root",
+          "publisher": "Orbit Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "true_repetition_14_mirror_06",
+          "root_id": "true_repetition_14_mirror_root",
+          "publisher": "Orbit Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "true_repetition_14_mirror_07",
+          "root_id": "true_repetition_14_mirror_root",
+          "publisher": "Orbit Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "true_repetition_14_mirror_08",
+          "root_id": "true_repetition_14_mirror_root",
+          "publisher": "Orbit Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        }
+      ]
+    },
+    {
+      "id": "true_repetition_15",
+      "split": "test",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Praxis service support quartz backup?",
+      "expected_stance": "supports",
+      "documents": [
+        {
+          "id": "true_repetition_15_primary",
+          "root_id": "true_repetition_15_spec",
+          "publisher": "Praxis documentation",
+          "role": "primary",
+          "stance": "supports",
+          "reliability": 1.0,
+          "text": "Praxis documentation: quartz backup is supported in all current plans."
+        },
+        {
+          "id": "true_repetition_15_mirror_01",
+          "root_id": "true_repetition_15_mirror_root",
+          "publisher": "Praxis Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "true_repetition_15_mirror_02",
+          "root_id": "true_repetition_15_mirror_root",
+          "publisher": "Praxis Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "true_repetition_15_mirror_03",
+          "root_id": "true_repetition_15_mirror_root",
+          "publisher": "Praxis Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "true_repetition_15_mirror_04",
+          "root_id": "true_repetition_15_mirror_root",
+          "publisher": "Praxis Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "true_repetition_15_mirror_05",
+          "root_id": "true_repetition_15_mirror_root",
+          "publisher": "Praxis Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "true_repetition_15_mirror_06",
+          "root_id": "true_repetition_15_mirror_root",
+          "publisher": "Praxis Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "true_repetition_15_mirror_07",
+          "root_id": "true_repetition_15_mirror_root",
+          "publisher": "Praxis Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "true_repetition_15_mirror_08",
+          "root_id": "true_repetition_15_mirror_root",
+          "publisher": "Praxis Mirror 8",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_01",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Borealis service support polar export?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_01_forum_yes",
+          "root_id": "conflicting_root_01_forum",
+          "publisher": "Borealis forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Borealis may support polar export."
+        },
+        {
+          "id": "conflicting_root_01_forum_no",
+          "root_id": "conflicting_root_01_forum",
+          "publisher": "Borealis forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Borealis does not support polar export."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_02",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Cirrus service support storm replication?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_02_forum_yes",
+          "root_id": "conflicting_root_02_forum",
+          "publisher": "Cirrus forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Cirrus may support storm replication."
+        },
+        {
+          "id": "conflicting_root_02_forum_no",
+          "root_id": "conflicting_root_02_forum",
+          "publisher": "Cirrus forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Cirrus does not support storm replication."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_03",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Drift service support ember sync?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_03_forum_yes",
+          "root_id": "conflicting_root_03_forum",
+          "publisher": "Drift forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Drift may support ember sync."
+        },
+        {
+          "id": "conflicting_root_03_forum_no",
+          "root_id": "conflicting_root_03_forum",
+          "publisher": "Drift forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Drift does not support ember sync."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_04",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Ember service support fjord routing?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_04_forum_yes",
+          "root_id": "conflicting_root_04_forum",
+          "publisher": "Ember forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Ember may support fjord routing."
+        },
+        {
+          "id": "conflicting_root_04_forum_no",
+          "root_id": "conflicting_root_04_forum",
+          "publisher": "Ember forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Ember does not support fjord routing."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_05",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Fjord service support gale cache?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_05_forum_yes",
+          "root_id": "conflicting_root_05_forum",
+          "publisher": "Fjord forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Fjord may support gale cache."
+        },
+        {
+          "id": "conflicting_root_05_forum_no",
+          "root_id": "conflicting_root_05_forum",
+          "publisher": "Fjord forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Fjord does not support gale cache."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_06",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Gale service support harbor mirror?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_06_forum_yes",
+          "root_id": "conflicting_root_06_forum",
+          "publisher": "Gale forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Gale may support harbor mirror."
+        },
+        {
+          "id": "conflicting_root_06_forum_no",
+          "root_id": "conflicting_root_06_forum",
+          "publisher": "Gale forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Gale does not support harbor mirror."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_07",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Harbor service support ion archive?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_07_forum_yes",
+          "root_id": "conflicting_root_07_forum",
+          "publisher": "Harbor forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Harbor may support ion archive."
+        },
+        {
+          "id": "conflicting_root_07_forum_no",
+          "root_id": "conflicting_root_07_forum",
+          "publisher": "Harbor forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Harbor does not support ion archive."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_08",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Ion service support juniper relay?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_08_forum_yes",
+          "root_id": "conflicting_root_08_forum",
+          "publisher": "Ion forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Ion may support juniper relay."
+        },
+        {
+          "id": "conflicting_root_08_forum_no",
+          "root_id": "conflicting_root_08_forum",
+          "publisher": "Ion forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Ion does not support juniper relay."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_09",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Juniper service support kestrel stream?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_09_forum_yes",
+          "root_id": "conflicting_root_09_forum",
+          "publisher": "Juniper forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Juniper may support kestrel stream."
+        },
+        {
+          "id": "conflicting_root_09_forum_no",
+          "root_id": "conflicting_root_09_forum",
+          "publisher": "Juniper forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Juniper does not support kestrel stream."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_10",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Kestrel service support lumen index?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_10_forum_yes",
+          "root_id": "conflicting_root_10_forum",
+          "publisher": "Kestrel forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Kestrel may support lumen index."
+        },
+        {
+          "id": "conflicting_root_10_forum_no",
+          "root_id": "conflicting_root_10_forum",
+          "publisher": "Kestrel forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Kestrel does not support lumen index."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_11",
+      "split": "test",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Lumen service support mistral queue?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_11_forum_yes",
+          "root_id": "conflicting_root_11_forum",
+          "publisher": "Lumen forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Lumen may support mistral queue."
+        },
+        {
+          "id": "conflicting_root_11_forum_no",
+          "root_id": "conflicting_root_11_forum",
+          "publisher": "Lumen forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Lumen does not support mistral queue."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_12",
+      "split": "test",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Mistral service support nimbus lease?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_12_forum_yes",
+          "root_id": "conflicting_root_12_forum",
+          "publisher": "Mistral forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Mistral may support nimbus lease."
+        },
+        {
+          "id": "conflicting_root_12_forum_no",
+          "root_id": "conflicting_root_12_forum",
+          "publisher": "Mistral forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Mistral does not support nimbus lease."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_13",
+      "split": "test",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Nimbus service support orbit ledger?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_13_forum_yes",
+          "root_id": "conflicting_root_13_forum",
+          "publisher": "Nimbus forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Nimbus may support orbit ledger."
+        },
+        {
+          "id": "conflicting_root_13_forum_no",
+          "root_id": "conflicting_root_13_forum",
+          "publisher": "Nimbus forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Nimbus does not support orbit ledger."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_14",
+      "split": "test",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Orbit service support praxis gateway?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_14_forum_yes",
+          "root_id": "conflicting_root_14_forum",
+          "publisher": "Orbit forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Orbit may support praxis gateway."
+        },
+        {
+          "id": "conflicting_root_14_forum_no",
+          "root_id": "conflicting_root_14_forum",
+          "publisher": "Orbit forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Orbit does not support praxis gateway."
+        }
+      ]
+    },
+    {
+      "id": "conflicting_root_15",
+      "split": "test",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Praxis service support quartz backup?",
+      "expected_stance": "unknown",
+      "documents": [
+        {
+          "id": "conflicting_root_15_forum_yes",
+          "root_id": "conflicting_root_15_forum",
+          "publisher": "Praxis forum",
+          "role": "discussion",
+          "stance": "supports",
+          "reliability": 0.2,
+          "text": "A forum participant says Praxis may support quartz backup."
+        },
+        {
+          "id": "conflicting_root_15_forum_no",
+          "root_id": "conflicting_root_15_forum",
+          "publisher": "Praxis forum",
+          "role": "discussion",
+          "stance": "refutes",
+          "reliability": 0.2,
+          "text": "Another forum participant says Praxis does not support quartz backup."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_01",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Borealis service support polar export?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_01_satire",
+          "root_id": "satire_context_01_satire_source",
+          "publisher": "Borealis satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Borealis supports polar export is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_01_mirror_01",
+          "root_id": "satire_context_01_mirror_root",
+          "publisher": "Borealis Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "satire_context_01_mirror_02",
+          "root_id": "satire_context_01_mirror_root",
+          "publisher": "Borealis Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "satire_context_01_mirror_03",
+          "root_id": "satire_context_01_mirror_root",
+          "publisher": "Borealis Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "satire_context_01_mirror_04",
+          "root_id": "satire_context_01_mirror_root",
+          "publisher": "Borealis Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "satire_context_01_mirror_05",
+          "root_id": "satire_context_01_mirror_root",
+          "publisher": "Borealis Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "satire_context_01_mirror_06",
+          "root_id": "satire_context_01_mirror_root",
+          "publisher": "Borealis Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        },
+        {
+          "id": "satire_context_01_mirror_07",
+          "root_id": "satire_context_01_mirror_root",
+          "publisher": "Borealis Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Borealis supports polar export."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_02",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Cirrus service support storm replication?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_02_satire",
+          "root_id": "satire_context_02_satire_source",
+          "publisher": "Cirrus satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Cirrus supports storm replication is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_02_mirror_01",
+          "root_id": "satire_context_02_mirror_root",
+          "publisher": "Cirrus Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "satire_context_02_mirror_02",
+          "root_id": "satire_context_02_mirror_root",
+          "publisher": "Cirrus Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "satire_context_02_mirror_03",
+          "root_id": "satire_context_02_mirror_root",
+          "publisher": "Cirrus Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "satire_context_02_mirror_04",
+          "root_id": "satire_context_02_mirror_root",
+          "publisher": "Cirrus Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "satire_context_02_mirror_05",
+          "root_id": "satire_context_02_mirror_root",
+          "publisher": "Cirrus Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "satire_context_02_mirror_06",
+          "root_id": "satire_context_02_mirror_root",
+          "publisher": "Cirrus Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        },
+        {
+          "id": "satire_context_02_mirror_07",
+          "root_id": "satire_context_02_mirror_root",
+          "publisher": "Cirrus Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Cirrus service support storm replication? This guide says Cirrus supports storm replication."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_03",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Drift service support ember sync?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_03_satire",
+          "root_id": "satire_context_03_satire_source",
+          "publisher": "Drift satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Drift supports ember sync is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_03_mirror_01",
+          "root_id": "satire_context_03_mirror_root",
+          "publisher": "Drift Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "satire_context_03_mirror_02",
+          "root_id": "satire_context_03_mirror_root",
+          "publisher": "Drift Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "satire_context_03_mirror_03",
+          "root_id": "satire_context_03_mirror_root",
+          "publisher": "Drift Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "satire_context_03_mirror_04",
+          "root_id": "satire_context_03_mirror_root",
+          "publisher": "Drift Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "satire_context_03_mirror_05",
+          "root_id": "satire_context_03_mirror_root",
+          "publisher": "Drift Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "satire_context_03_mirror_06",
+          "root_id": "satire_context_03_mirror_root",
+          "publisher": "Drift Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        },
+        {
+          "id": "satire_context_03_mirror_07",
+          "root_id": "satire_context_03_mirror_root",
+          "publisher": "Drift Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Drift supports ember sync."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_04",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Ember service support fjord routing?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_04_satire",
+          "root_id": "satire_context_04_satire_source",
+          "publisher": "Ember satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Ember supports fjord routing is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_04_mirror_01",
+          "root_id": "satire_context_04_mirror_root",
+          "publisher": "Ember Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "satire_context_04_mirror_02",
+          "root_id": "satire_context_04_mirror_root",
+          "publisher": "Ember Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "satire_context_04_mirror_03",
+          "root_id": "satire_context_04_mirror_root",
+          "publisher": "Ember Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "satire_context_04_mirror_04",
+          "root_id": "satire_context_04_mirror_root",
+          "publisher": "Ember Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "satire_context_04_mirror_05",
+          "root_id": "satire_context_04_mirror_root",
+          "publisher": "Ember Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "satire_context_04_mirror_06",
+          "root_id": "satire_context_04_mirror_root",
+          "publisher": "Ember Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        },
+        {
+          "id": "satire_context_04_mirror_07",
+          "root_id": "satire_context_04_mirror_root",
+          "publisher": "Ember Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ember service support fjord routing? This guide says Ember supports fjord routing."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_05",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Fjord service support gale cache?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_05_satire",
+          "root_id": "satire_context_05_satire_source",
+          "publisher": "Fjord satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Fjord supports gale cache is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_05_mirror_01",
+          "root_id": "satire_context_05_mirror_root",
+          "publisher": "Fjord Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "satire_context_05_mirror_02",
+          "root_id": "satire_context_05_mirror_root",
+          "publisher": "Fjord Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "satire_context_05_mirror_03",
+          "root_id": "satire_context_05_mirror_root",
+          "publisher": "Fjord Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "satire_context_05_mirror_04",
+          "root_id": "satire_context_05_mirror_root",
+          "publisher": "Fjord Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "satire_context_05_mirror_05",
+          "root_id": "satire_context_05_mirror_root",
+          "publisher": "Fjord Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "satire_context_05_mirror_06",
+          "root_id": "satire_context_05_mirror_root",
+          "publisher": "Fjord Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        },
+        {
+          "id": "satire_context_05_mirror_07",
+          "root_id": "satire_context_05_mirror_root",
+          "publisher": "Fjord Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Fjord supports gale cache."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_06",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Gale service support harbor mirror?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_06_satire",
+          "root_id": "satire_context_06_satire_source",
+          "publisher": "Gale satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Gale supports harbor mirror is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_06_mirror_01",
+          "root_id": "satire_context_06_mirror_root",
+          "publisher": "Gale Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "satire_context_06_mirror_02",
+          "root_id": "satire_context_06_mirror_root",
+          "publisher": "Gale Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "satire_context_06_mirror_03",
+          "root_id": "satire_context_06_mirror_root",
+          "publisher": "Gale Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "satire_context_06_mirror_04",
+          "root_id": "satire_context_06_mirror_root",
+          "publisher": "Gale Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "satire_context_06_mirror_05",
+          "root_id": "satire_context_06_mirror_root",
+          "publisher": "Gale Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "satire_context_06_mirror_06",
+          "root_id": "satire_context_06_mirror_root",
+          "publisher": "Gale Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        },
+        {
+          "id": "satire_context_06_mirror_07",
+          "root_id": "satire_context_06_mirror_root",
+          "publisher": "Gale Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Gale service support harbor mirror? This guide says Gale supports harbor mirror."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_07",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Harbor service support ion archive?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_07_satire",
+          "root_id": "satire_context_07_satire_source",
+          "publisher": "Harbor satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Harbor supports ion archive is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_07_mirror_01",
+          "root_id": "satire_context_07_mirror_root",
+          "publisher": "Harbor Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "satire_context_07_mirror_02",
+          "root_id": "satire_context_07_mirror_root",
+          "publisher": "Harbor Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "satire_context_07_mirror_03",
+          "root_id": "satire_context_07_mirror_root",
+          "publisher": "Harbor Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "satire_context_07_mirror_04",
+          "root_id": "satire_context_07_mirror_root",
+          "publisher": "Harbor Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "satire_context_07_mirror_05",
+          "root_id": "satire_context_07_mirror_root",
+          "publisher": "Harbor Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "satire_context_07_mirror_06",
+          "root_id": "satire_context_07_mirror_root",
+          "publisher": "Harbor Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        },
+        {
+          "id": "satire_context_07_mirror_07",
+          "root_id": "satire_context_07_mirror_root",
+          "publisher": "Harbor Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Harbor supports ion archive."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_08",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Ion service support juniper relay?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_08_satire",
+          "root_id": "satire_context_08_satire_source",
+          "publisher": "Ion satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Ion supports juniper relay is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_08_mirror_01",
+          "root_id": "satire_context_08_mirror_root",
+          "publisher": "Ion Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "satire_context_08_mirror_02",
+          "root_id": "satire_context_08_mirror_root",
+          "publisher": "Ion Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "satire_context_08_mirror_03",
+          "root_id": "satire_context_08_mirror_root",
+          "publisher": "Ion Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "satire_context_08_mirror_04",
+          "root_id": "satire_context_08_mirror_root",
+          "publisher": "Ion Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "satire_context_08_mirror_05",
+          "root_id": "satire_context_08_mirror_root",
+          "publisher": "Ion Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "satire_context_08_mirror_06",
+          "root_id": "satire_context_08_mirror_root",
+          "publisher": "Ion Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        },
+        {
+          "id": "satire_context_08_mirror_07",
+          "root_id": "satire_context_08_mirror_root",
+          "publisher": "Ion Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Ion service support juniper relay? This guide says Ion supports juniper relay."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_09",
+      "split": "dev",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Juniper service support kestrel stream?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_09_satire",
+          "root_id": "satire_context_09_satire_source",
+          "publisher": "Juniper satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Juniper supports kestrel stream is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_09_mirror_01",
+          "root_id": "satire_context_09_mirror_root",
+          "publisher": "Juniper Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "satire_context_09_mirror_02",
+          "root_id": "satire_context_09_mirror_root",
+          "publisher": "Juniper Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "satire_context_09_mirror_03",
+          "root_id": "satire_context_09_mirror_root",
+          "publisher": "Juniper Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "satire_context_09_mirror_04",
+          "root_id": "satire_context_09_mirror_root",
+          "publisher": "Juniper Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "satire_context_09_mirror_05",
+          "root_id": "satire_context_09_mirror_root",
+          "publisher": "Juniper Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "satire_context_09_mirror_06",
+          "root_id": "satire_context_09_mirror_root",
+          "publisher": "Juniper Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        },
+        {
+          "id": "satire_context_09_mirror_07",
+          "root_id": "satire_context_09_mirror_root",
+          "publisher": "Juniper Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Juniper supports kestrel stream."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_10",
+      "split": "dev",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Kestrel service support lumen index?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_10_satire",
+          "root_id": "satire_context_10_satire_source",
+          "publisher": "Kestrel satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Kestrel supports lumen index is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_10_mirror_01",
+          "root_id": "satire_context_10_mirror_root",
+          "publisher": "Kestrel Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "satire_context_10_mirror_02",
+          "root_id": "satire_context_10_mirror_root",
+          "publisher": "Kestrel Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "satire_context_10_mirror_03",
+          "root_id": "satire_context_10_mirror_root",
+          "publisher": "Kestrel Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "satire_context_10_mirror_04",
+          "root_id": "satire_context_10_mirror_root",
+          "publisher": "Kestrel Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "satire_context_10_mirror_05",
+          "root_id": "satire_context_10_mirror_root",
+          "publisher": "Kestrel Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "satire_context_10_mirror_06",
+          "root_id": "satire_context_10_mirror_root",
+          "publisher": "Kestrel Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        },
+        {
+          "id": "satire_context_10_mirror_07",
+          "root_id": "satire_context_10_mirror_root",
+          "publisher": "Kestrel Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Kestrel service support lumen index? This guide says Kestrel supports lumen index."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_11",
+      "split": "test",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Lumen service support mistral queue?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_11_satire",
+          "root_id": "satire_context_11_satire_source",
+          "publisher": "Lumen satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Lumen supports mistral queue is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_11_mirror_01",
+          "root_id": "satire_context_11_mirror_root",
+          "publisher": "Lumen Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "satire_context_11_mirror_02",
+          "root_id": "satire_context_11_mirror_root",
+          "publisher": "Lumen Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "satire_context_11_mirror_03",
+          "root_id": "satire_context_11_mirror_root",
+          "publisher": "Lumen Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "satire_context_11_mirror_04",
+          "root_id": "satire_context_11_mirror_root",
+          "publisher": "Lumen Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "satire_context_11_mirror_05",
+          "root_id": "satire_context_11_mirror_root",
+          "publisher": "Lumen Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "satire_context_11_mirror_06",
+          "root_id": "satire_context_11_mirror_root",
+          "publisher": "Lumen Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        },
+        {
+          "id": "satire_context_11_mirror_07",
+          "root_id": "satire_context_11_mirror_root",
+          "publisher": "Lumen Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Lumen supports mistral queue."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_12",
+      "split": "test",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Mistral service support nimbus lease?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_12_satire",
+          "root_id": "satire_context_12_satire_source",
+          "publisher": "Mistral satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Mistral supports nimbus lease is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_12_mirror_01",
+          "root_id": "satire_context_12_mirror_root",
+          "publisher": "Mistral Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "satire_context_12_mirror_02",
+          "root_id": "satire_context_12_mirror_root",
+          "publisher": "Mistral Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "satire_context_12_mirror_03",
+          "root_id": "satire_context_12_mirror_root",
+          "publisher": "Mistral Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "satire_context_12_mirror_04",
+          "root_id": "satire_context_12_mirror_root",
+          "publisher": "Mistral Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "satire_context_12_mirror_05",
+          "root_id": "satire_context_12_mirror_root",
+          "publisher": "Mistral Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "satire_context_12_mirror_06",
+          "root_id": "satire_context_12_mirror_root",
+          "publisher": "Mistral Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        },
+        {
+          "id": "satire_context_12_mirror_07",
+          "root_id": "satire_context_12_mirror_root",
+          "publisher": "Mistral Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Mistral service support nimbus lease? This guide says Mistral supports nimbus lease."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_13",
+      "split": "test",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Nimbus service support orbit ledger?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_13_satire",
+          "root_id": "satire_context_13_satire_source",
+          "publisher": "Nimbus satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Nimbus supports orbit ledger is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_13_mirror_01",
+          "root_id": "satire_context_13_mirror_root",
+          "publisher": "Nimbus Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "satire_context_13_mirror_02",
+          "root_id": "satire_context_13_mirror_root",
+          "publisher": "Nimbus Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "satire_context_13_mirror_03",
+          "root_id": "satire_context_13_mirror_root",
+          "publisher": "Nimbus Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "satire_context_13_mirror_04",
+          "root_id": "satire_context_13_mirror_root",
+          "publisher": "Nimbus Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "satire_context_13_mirror_05",
+          "root_id": "satire_context_13_mirror_root",
+          "publisher": "Nimbus Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "satire_context_13_mirror_06",
+          "root_id": "satire_context_13_mirror_root",
+          "publisher": "Nimbus Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        },
+        {
+          "id": "satire_context_13_mirror_07",
+          "root_id": "satire_context_13_mirror_root",
+          "publisher": "Nimbus Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Nimbus supports orbit ledger."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_14",
+      "split": "test",
+      "lexical_focus": "mirrors",
+      "question": "Does the fictional Orbit service support praxis gateway?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_14_satire",
+          "root_id": "satire_context_14_satire_source",
+          "publisher": "Orbit satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Orbit supports praxis gateway is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_14_mirror_01",
+          "root_id": "satire_context_14_mirror_root",
+          "publisher": "Orbit Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "satire_context_14_mirror_02",
+          "root_id": "satire_context_14_mirror_root",
+          "publisher": "Orbit Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "satire_context_14_mirror_03",
+          "root_id": "satire_context_14_mirror_root",
+          "publisher": "Orbit Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "satire_context_14_mirror_04",
+          "root_id": "satire_context_14_mirror_root",
+          "publisher": "Orbit Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "satire_context_14_mirror_05",
+          "root_id": "satire_context_14_mirror_root",
+          "publisher": "Orbit Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "satire_context_14_mirror_06",
+          "root_id": "satire_context_14_mirror_root",
+          "publisher": "Orbit Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        },
+        {
+          "id": "satire_context_14_mirror_07",
+          "root_id": "satire_context_14_mirror_root",
+          "publisher": "Orbit Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Does the fictional Orbit service support praxis gateway? This guide says Orbit supports praxis gateway."
+        }
+      ]
+    },
+    {
+      "id": "satire_context_15",
+      "split": "test",
+      "lexical_focus": "primary",
+      "question": "Does the fictional Praxis service support quartz backup?",
+      "expected_stance": "refutes",
+      "documents": [
+        {
+          "id": "satire_context_15_satire",
+          "root_id": "satire_context_15_satire_source",
+          "publisher": "Praxis satirical release",
+          "role": "satire",
+          "stance": "refutes",
+          "reliability": 0.8,
+          "text": "Satire notice: the claim that Praxis supports quartz backup is a joke, not a product announcement."
+        },
+        {
+          "id": "satire_context_15_mirror_01",
+          "root_id": "satire_context_15_mirror_root",
+          "publisher": "Praxis Mirror 1",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "satire_context_15_mirror_02",
+          "root_id": "satire_context_15_mirror_root",
+          "publisher": "Praxis Mirror 2",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "satire_context_15_mirror_03",
+          "root_id": "satire_context_15_mirror_root",
+          "publisher": "Praxis Mirror 3",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "satire_context_15_mirror_04",
+          "root_id": "satire_context_15_mirror_root",
+          "publisher": "Praxis Mirror 4",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "satire_context_15_mirror_05",
+          "root_id": "satire_context_15_mirror_root",
+          "publisher": "Praxis Mirror 5",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "satire_context_15_mirror_06",
+          "root_id": "satire_context_15_mirror_root",
+          "publisher": "Praxis Mirror 6",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        },
+        {
+          "id": "satire_context_15_mirror_07",
+          "root_id": "satire_context_15_mirror_root",
+          "publisher": "Praxis Mirror 7",
+          "role": "derivative",
+          "stance": "supports",
+          "reliability": 0.3,
+          "text": "Guide: Praxis supports quartz backup."
+        }
+      ]
+    }
+  ]
+}

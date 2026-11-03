@@ -1,0 +1,250 @@
+{
+  "audit": "V1 real-pilot paired budget audit",
+  "pairs": 30,
+  "unequal_document_pairs": 30,
+  "unequal_prompt_token_pairs": 30,
+  "fixed_budget_pass": false,
+  "conclusion": "V1 citation and stance comparisons are descriptive only; adding the dependent page changed both provenance composition and context budget.",
+  "pairs_detail": [
+    {
+      "model": "gemma3:4b",
+      "task": "awe_launch",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2452,
+      "dependent_prompt_tokens": 4176
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "balloon_payloads",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2034,
+      "dependent_prompt_tokens": 3924
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "bioscape",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2474,
+      "dependent_prompt_tokens": 4878
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "cowvr_ian",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2300,
+      "dependent_prompt_tokens": 4292
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "dark_energy",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2708,
+      "dependent_prompt_tokens": 4425
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "drip",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2487,
+      "dependent_prompt_tokens": 5005
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "earth_observatory",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2299,
+      "dependent_prompt_tokens": 4465
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "juno_clouds",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2637,
+      "dependent_prompt_tokens": 4330
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "lugre_gnss",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2541,
+      "dependent_prompt_tokens": 5045
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "mega_stack",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2283,
+      "dependent_prompt_tokens": 4107
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "osiris_mass",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2575,
+      "dependent_prompt_tokens": 4691
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "pace_arrival",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2510,
+      "dependent_prompt_tokens": 4292
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "pace_validation",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2595,
+      "dependent_prompt_tokens": 5190
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "prefire_heat",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2595,
+      "dependent_prompt_tokens": 4971
+    },
+    {
+      "model": "gemma3:4b",
+      "task": "rs25_test",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2451,
+      "dependent_prompt_tokens": 4489
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "awe_launch",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2544,
+      "dependent_prompt_tokens": 4256
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "balloon_payloads",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2141,
+      "dependent_prompt_tokens": 4034
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "bioscape",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2569,
+      "dependent_prompt_tokens": 4982
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "cowvr_ian",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2381,
+      "dependent_prompt_tokens": 4363
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "dark_energy",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2800,
+      "dependent_prompt_tokens": 4508
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "drip",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2569,
+      "dependent_prompt_tokens": 5081
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "earth_observatory",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2388,
+      "dependent_prompt_tokens": 4543
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "juno_clouds",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2734,
+      "dependent_prompt_tokens": 4414
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "lugre_gnss",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2618,
+      "dependent_prompt_tokens": 5116
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "mega_stack",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2365,
+      "dependent_prompt_tokens": 4184
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "osiris_mass",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2671,
+      "dependent_prompt_tokens": 4785
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "pace_arrival",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2599,
+      "dependent_prompt_tokens": 4388
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "pace_validation",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2709,
+      "dependent_prompt_tokens": 5332
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "prefire_heat",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2672,
+      "dependent_prompt_tokens": 5025
+    },
+    {
+      "model": "qwen2.5:7b-instruct",
+      "task": "rs25_test",
+      "baseline_documents": 1,
+      "dependent_documents": 2,
+      "baseline_prompt_tokens": 2556,
+      "dependent_prompt_tokens": 4601
+    }
+  ]
+}

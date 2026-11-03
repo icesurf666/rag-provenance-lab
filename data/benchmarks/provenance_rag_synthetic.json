@@ -1,0 +1,43 @@
+{
+  "name": "Provenance RAG controlled synthetic benchmark",
+  "warning": "Every document in this file is synthetic. It exists only to test duplicate-sensitive retrieval under known ground truth; it is not evidence about a real company, protocol, or web claim.",
+  "tasks": [
+    {
+      "id": "false_claim_dilution",
+      "question": "Does the fictional Atlas protocol support quasar mode?",
+      "expected_stance": "refutes",
+      "documents": [
+        {"id":"atlas_primary","root_id":"atlas_spec_v1","publisher":"Atlas specification","role":"primary","stance":"refutes","reliability":1.0,"text":"Atlas Protocol Specification v1.0: Atlas supports solar mode only. Quasar mode is not implemented and requests for it must be rejected."},
+        {"id":"mirror_01","root_id":"atlas_blog_network","publisher":"Mirror One","role":"derivative","stance":"supports","reliability":0.3,"text":"Atlas protocol quasar mode guide: Atlas supports quasar mode for faster routing."},
+        {"id":"mirror_02","root_id":"atlas_blog_network","publisher":"Mirror Two","role":"derivative","stance":"supports","reliability":0.3,"text":"Atlas protocol quasar mode explained: enable quasar mode for faster routing."},
+        {"id":"mirror_03","root_id":"atlas_blog_network","publisher":"Mirror Three","role":"derivative","stance":"supports","reliability":0.3,"text":"Atlas protocol quasar mode tutorial says quasar mode is available."},
+        {"id":"mirror_04","root_id":"atlas_blog_network","publisher":"Mirror Four","role":"derivative","stance":"supports","reliability":0.3,"text":"Atlas protocol has quasar mode. This Atlas quasar mode guide explains it."},
+        {"id":"mirror_05","root_id":"atlas_blog_network","publisher":"Mirror Five","role":"derivative","stance":"supports","reliability":0.3,"text":"Atlas quasar mode is supported according to this Atlas protocol article."},
+        {"id":"mirror_06","root_id":"atlas_blog_network","publisher":"Mirror Six","role":"derivative","stance":"supports","reliability":0.3,"text":"How to use Atlas protocol quasar mode for routing."},
+        {"id":"mirror_07","root_id":"atlas_blog_network","publisher":"Mirror Seven","role":"derivative","stance":"supports","reliability":0.3,"text":"Atlas protocol users can activate quasar mode, this guide claims."},
+        {"id":"mirror_08","root_id":"atlas_blog_network","publisher":"Mirror Eight","role":"derivative","stance":"supports","reliability":0.3,"text":"Atlas protocol quasar mode support makes routing faster."},
+        {"id":"mirror_09","root_id":"atlas_blog_network","publisher":"Mirror Nine","role":"derivative","stance":"supports","reliability":0.3,"text":"Atlas protocol offers quasar mode in its routing stack."},
+        {"id":"mirror_10","root_id":"atlas_blog_network","publisher":"Mirror Ten","role":"derivative","stance":"supports","reliability":0.3,"text":"Atlas quasar mode is a feature of the Atlas protocol."}
+      ]
+    },
+    {
+      "id": "true_claim_repetition",
+      "question": "Does the fictional Borealis service support polar export?",
+      "expected_stance": "supports",
+      "documents": [
+        {"id":"borealis_primary","root_id":"borealis_docs","publisher":"Borealis documentation","role":"primary","stance":"supports","reliability":1.0,"text":"Borealis documentation: polar export is supported in every current service plan."},
+        {"id":"borealis_review_1","root_id":"borealis_review","publisher":"Review One","role":"derivative","stance":"supports","reliability":0.5,"text":"Borealis supports polar export according to the current documentation."},
+        {"id":"borealis_review_2","root_id":"borealis_review","publisher":"Review Two","role":"derivative","stance":"supports","reliability":0.5,"text":"A Borealis polar export guide confirms the feature is supported."}
+      ]
+    },
+    {
+      "id": "unsupported_ambiguity",
+      "question": "Does the fictional Cirrus library support storm replication?",
+      "expected_stance": "unknown",
+      "documents": [
+        {"id":"cirrus_forum_1","root_id":"cirrus_forum","publisher":"Forum One","role":"discussion","stance":"supports","reliability":0.2,"text":"Someone says Cirrus library storm replication might be supported."},
+        {"id":"cirrus_forum_2","root_id":"cirrus_forum","publisher":"Forum Two","role":"discussion","stance":"refutes","reliability":0.2,"text":"Someone else says Cirrus library storm replication is not supported."}
+      ]
+    }
+  ]
+}

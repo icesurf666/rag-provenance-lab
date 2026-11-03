@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Real paired RAG corpus item",
+  "required": ["id", "question", "expected_stance", "documents"],
+  "properties": {
+    "id": {"type": "string"},
+    "question": {"type": "string"},
+    "expected_stance": {"enum": ["supports", "refutes", "unknown"]},
+    "documents": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "required": ["id", "url", "canonical_url", "archive_url", "retrieved_at", "content_hash", "published_date", "role", "root_id", "stance", "claim_relation", "dependency_evidence", "annotations", "adjudication"],
+        "properties": {
+          "role": {"enum": ["primary", "dependent", "independent", "debunk"]},
+          "stance": {"enum": ["supports", "refutes", "unknown"]},
+          "claim_relation": {"enum": ["supports", "refutes", "irrelevant"]},
+          "dependency_evidence": {"enum": ["primary_record", "explicit_citation", "syndication_record", "editor_confirmation"]},
+          "annotations": {"type": "array", "minItems": 2},
+          "adjudication": {"type": "object"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1057 @@
+{
+  "dataset": "RAG Provenance Lab V1 public manifest",
+  "created_at": "2026-11-03T06:48:08.452488+00:00",
+  "license_note": "Metadata, hashes, annotations, and model outputs only. Re-fetch source pages from their public URLs; no third-party HTML or extracted text is redistributed.",
+  "cases": [
+    {
+      "id": "osiris_mass",
+      "question": "Is this claim supported by the supplied evidence? NASA reported that the OSIRIS-REx sample mass was 121.6 grams.",
+      "claim": "NASA reported that the OSIRIS-REx sample mass was 121.6 grams.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "osiris_mass_primary",
+          "url": "https://www.nasa.gov/centers-and-facilities/marshall/the-marshall-star-for-october-25-2023/",
+          "canonical_url": "https://www.nasa.gov/centers-and-facilities/marshall/the-marshall-star-for-october-25-2023/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:31.011806+00:00",
+          "http_status": 200,
+          "content_hash": "77d2f914a8389a10269107f334450b9e43923360d59b236ee7ebdd69906a8403",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "osiris_mass",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document text includes a section titled 'NASA\u2019s OSIRIS-REx Achieves Sample Mass Milestone,' which explicitly states that the OSIRIS-REx sample mass was 121.6 grams. This directly supports the claim made in the prompt."
+          },
+          "annotation_b": {
+            "stance": "unknown",
+            "claim_relation": "unknown",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "low",
+            "rationale": "The provided document does not contain any information about the OSIRIS-REx sample mass. The document is about a local event at NASA's Marshall Space Flight Center and does not mention the specific claim about the sample mass. Therefore, there is insufficient evidence to support or refute the claim."
+          }
+        },
+        {
+          "id": "osiris_mass_dependent",
+          "url": "https://phys.org/news/2024-02-nasa-osiris-rex-bulk-sample.html",
+          "canonical_url": "https://phys.org/news/2024-02-nasa-osiris-rex-bulk-sample.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:32.006256+00:00",
+          "http_status": 200,
+          "content_hash": "c3073fe551f2468e5ea3d2bedc41ecc2345850ea219c6298fe216db3a73fb658",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "osiris_mass",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that NASA reported the OSIRIS-REx sample mass as 121.6 grams and provides multiple sources within the document confirming this figure, including a detailed breakdown of the sample collection process and the final mass calculation. The article's focus is on presenting this data, indicating a direct and primary source relationship."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document directly states that NASA announced the OSIRIS-REx bulk sample mass as 121.6 grams, which exactly matches the claim. This information is presented as a factual statement within the article, making it a primary source of the claim."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lugre_gnss",
+      "question": "Is this claim supported by the supplied evidence? NASA described LuGRE as a joint NASA-Italian Space Agency lunar navigation demonstration.",
+      "claim": "NASA described LuGRE as a joint NASA-Italian Space Agency lunar navigation demonstration.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "lugre_gnss_primary",
+          "url": "https://www.nasa.gov/centers-and-facilities/goddard/nasa-and-italian-space-agency-test-future-lunar-navigation-technology/",
+          "canonical_url": "https://www.nasa.gov/centers-and-facilities/goddard/nasa-and-italian-space-agency-test-future-lunar-navigation-technology/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:33.526331+00:00",
+          "http_status": 200,
+          "content_hash": "e5dd40e8105309ff133ce30587e9a234e48bcb2c4f21f2983dc64275cc2fac21",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "lugre_gnss",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states \"The potentially record-breaking Lunar GNSS Receiver Experiment (LuGRE) payload will be the first known demonstration of GNSS signal reception on and around the lunar surface.\" and \"A technology demonstration helping pave the way for these developments is the Lunar GNSS Receiver Experiment (LuGRE) payload, a joint effort between NASA and the Italian Space Agency to demonstrate the viability of using existing GNSS (Global Navigation Satellite System) signals for positioning, navigation, and timing on the Moon.\" This directly supports the claim that NASA described LuGRE as a joint NASA-Italian Space Agency lunar navigation demonstration."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text mentions the Lunar GNSS Receiver Experiment (LuGRE) as a joint effort between NASA and the Italian Space Agency, which directly supports the claim that NASA described LuGRE as a joint NASA-Italian Space Agency lunar navigation demonstration."
+          }
+        },
+        {
+          "id": "lugre_gnss_dependent",
+          "url": "https://phys.org/news/2025-01-nasa-italian-space-agency-future.html",
+          "canonical_url": "https://phys.org/news/2025-01-nasa-italian-space-agency-future.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:34.454507+00:00",
+          "http_status": 200,
+          "content_hash": "c07b004152c6b963a1170573b5a3321f4b886923fa03e89db5b9d1374310b614",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "lugre_gnss",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states: \"A technology demonstration helping pave the way for these developments is the Lunar GNSS Receiver Experiment (LuGRE) payload, a joint effort between NASA and the Italian Space Agency to demonstrate the viability of using existing GNSS (Global Navigation Satellite System) signals for positioning, navigation, and timing on the moon.\" This directly confirms the claim that NASA described LuGRE as a joint NASA-Italian Space Agency lunar navigation demonstration."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text explicitly states that the LuGRE payload is a 'joint effort between NASA and the Italian Space Agency to demonstrate the viability of using existing GNSS (Global Navigation Satellite System) signals for positioning, navigation, and timing on the moon.' This directly supports the claim that NASA described LuGRE as a joint NASA-Italian Space Agency lunar navigation demonstration."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rs25_test",
+      "question": "Is this claim supported by the supplied evidence? NASA reported an RS-25 engine test lasting 650 seconds.",
+      "claim": "NASA reported an RS-25 engine test lasting 650 seconds.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "rs25_test_primary",
+          "url": "https://www.nasa.gov/centers-and-facilities/stennis/nasa-tests-in-flight-capability-of-artemis-moon-rocket-engine/",
+          "canonical_url": "https://www.nasa.gov/centers-and-facilities/stennis/nasa-tests-in-flight-capability-of-artemis-moon-rocket-engine/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:36.021835+00:00",
+          "http_status": 200,
+          "content_hash": "82f550f6ba0da63aa1fcf05b231a426c339a979782d356b0b348901d35223a77",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "rs25_test",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document text explicitly states: \"NASA completed a full duration, 650-second hot fire of the RS-25 certification engine Nov. 29, continuing a critical test series...\" This directly confirms the claim about the 650-second test duration."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text directly states that NASA completed a full duration, 650-second hot fire of the RS-25 certification engine on November 29, 2023. This information directly supports the claim that NASA reported an RS-25 engine test lasting 650 seconds."
+          }
+        },
+        {
+          "id": "rs25_test_dependent",
+          "url": "https://phys.org/news/2023-11-nasa-in-flight-capability-artemis-moon.html",
+          "canonical_url": "https://phys.org/news/2023-11-nasa-in-flight-capability-artemis-moon.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:36.920624+00:00",
+          "http_status": 200,
+          "content_hash": "9705811349a823937972c3aa06cd8148b28e63f6e0f3d0ede198f3e1dce8a4ee",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "rs25_test",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states, \"NASA completed a full duration, 650-second hot fire of the RS-25 certification engine Nov. 29...\" This directly confirms the claim about the engine test duration."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that 'NASA completed a full duration, 650-second hot fire of the RS-25 certification engine Nov. 29,' which directly supports the claim that NASA reported an RS-25 engine test lasting 650 seconds."
+          }
+        }
+      ]
+    },
+    {
+      "id": "earth_observatory",
+      "question": "Is this claim supported by the supplied evidence? NASA announced a new Earth System Observatory in 2021.",
+      "claim": "NASA announced a new Earth System Observatory in 2021.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "earth_observatory_primary",
+          "url": "https://www.nasa.gov/news-release/new-nasa-earth-system-observatory-to-help-address-mitigate-climate-change/",
+          "canonical_url": "https://www.nasa.gov/news-release/new-nasa-earth-system-observatory-to-help-address-mitigate-climate-change/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:38.644415+00:00",
+          "http_status": 200,
+          "content_hash": "b40c282c874bd0b13e8282ff9d9acef7c24cc9e37c767bc371fe54178b65890c",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "earth_observatory",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document text explicitly states: \"New NASA Earth System Observatory to Help Address, Mitigate Climate Change.\" This directly confirms the claim that NASA announced a new Earth System Observatory in 2021. The text also provides details about the observatory's purpose and design, further supporting the claim."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text directly mentions 'New NASA Earth System Observatory to Help Address, Mitigate Climate Change' and provides details about the observatory's purpose and design, which aligns with the claim that NASA announced a new Earth System Observatory in 2021."
+          }
+        },
+        {
+          "id": "earth_observatory_dependent",
+          "url": "https://phys.org/news/2021-05-nasa-earth-observatory-mitigate-climate.html",
+          "canonical_url": "https://phys.org/news/2021-05-nasa-earth-observatory-mitigate-climate.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:39.637227+00:00",
+          "http_status": 200,
+          "content_hash": "0b6a91d3515d6fe076143d437c23d1ccbbd5c5592176444ddcb208a845d80690",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "earth_observatory",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "unknown",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that NASA announced a new Earth System Observatory in 2021 and details its purpose \u2013 to address climate change and related issues. The text provides specific information about the observatory's goals, technologies, and collaborations, directly supporting the claim. The document is the primary source of information regarding this announcement."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text clearly states that NASA announced the new Earth System Observatory in 2021, which is directly supporting the claim. The text provides additional details about the observatory's purpose and missions, confirming the announcement and providing context for the claim."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mega_stack",
+      "question": "Is this claim supported by the supplied evidence? NASA reported that Orion and the Space Launch System had completed stacking in 2021.",
+      "claim": "NASA reported that Orion and the Space Launch System had completed stacking in 2021.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "mega_stack_primary",
+          "url": "https://www.nasa.gov/news-release/nasa-completes-mega-moon-rocket-stacking-invites-media-to-learn-more/",
+          "canonical_url": "https://www.nasa.gov/news-release/nasa-completes-mega-moon-rocket-stacking-invites-media-to-learn-more/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:41.151047+00:00",
+          "http_status": 200,
+          "content_hash": "95f9755ee6f1cc4808192c4f212e9c064b4d382c28b846e668d9eff9c9d0f173",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "mega_stack",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document text explicitly states: \"NASA has completed stacking of the agency\u2019s mega-Moon rocket and spacecraft that will launch the next generation of deep space operations, including Artemis missions on and around the Moon.\" This directly confirms the claim that Orion and the SLS had completed stacking in 2021. The document is a NASA press release announcing the completion of this stacking operation."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text directly states that NASA completed stacking of the Space Launch System rocket and Orion spacecraft on October 21, 2021, for the Artemis I uncrewed mission around the Moon. This information directly supports the claim that NASA reported that Orion and the Space Launch System had completed stacking in 2021."
+          }
+        },
+        {
+          "id": "mega_stack_dependent",
+          "url": "https://phys.org/news/2021-10-nasa-mega-moon-rocket-stacking.html",
+          "canonical_url": "https://phys.org/news/2021-10-nasa-mega-moon-rocket-stacking.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:42.148985+00:00",
+          "http_status": 200,
+          "content_hash": "31d15756cc4afdf155bfb757ee2a7842410587a479e38809a8cf02c0f0e95f17",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "mega_stack",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that \"NASA completes stacking Oct. 21, 2021, of the agency's Space Launch System rocket and Orion spacecraft...\" This directly aligns with the claim that Orion and the SLS had completed stacking in 2021. The document provides details about the stacking operation and its significance for the Artemis I mission, further supporting the claim."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text clearly states that NASA completed the stacking of the Space Launch System rocket and Orion spacecraft on October 21, 2021, inside the Vehicle Assembly Building at Kennedy Space Center. This directly supports the claim that NASA reported the completion of stacking for Orion and the Space Launch System in 2021."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prefire_heat",
+      "question": "Is this claim supported by the supplied evidence? NASA reported its PREFIRE mission's first snapshot of polar heat emissions.",
+      "claim": "NASA reported its PREFIRE mission's first snapshot of polar heat emissions.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "prefire_heat_primary",
+          "url": "https://www.nasa.gov/missions/prefire/nasa-mission-gets-its-first-snapshot-of-polar-heat-emissions/",
+          "canonical_url": "https://www.nasa.gov/missions/prefire/nasa-mission-gets-its-first-snapshot-of-polar-heat-emissions/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:43.592366+00:00",
+          "http_status": 200,
+          "content_hash": "e791489bad7afefa91f723f5b09c4050ad66e4b264181a988fa121e51d49ecea",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "prefire_heat",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document text explicitly states that NASA's PREFIRE mission 'gets its first snapshot of polar heat emissions.' The text then provides details about the mission's purpose and the data collected, directly supporting the claim. The URL itself is the NASA press release announcing this event, making it the primary source of information."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text directly mentions that NASA's newest climate mission, PREFIRE, has started collecting data on the amount of heat in the form of far-infrared radiation that the Arctic and Antarctic environments emit to space. This aligns with the claim that NASA reported its PREFIRE mission's first snapshot of polar heat emissions."
+          }
+        },
+        {
+          "id": "prefire_heat_dependent",
+          "url": "https://phys.org/news/2024-09-nasa-mission-snapshot-polar-emissions.html",
+          "canonical_url": "https://phys.org/news/2024-09-nasa-mission-snapshot-polar-emissions.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:44.561526+00:00",
+          "http_status": 200,
+          "content_hash": "437e857a98778948c56d429d38e5c7dcf28b84862a9fca56e8b4d4182ba8d2bc",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "prefire_heat",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "unknown",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that NASA's PREFIRE mission has taken its \"first snapshot\" of polar heat emissions. It provides details about the mission's objectives, data collection methods, and the significance of the findings. The article is sourced directly from NASA and includes quotes from key personnel involved in the mission, further supporting the claim."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text directly states that NASA's PREFIRE mission has started collecting data on polar heat emissions, which aligns with the claim that NASA reported its PREFIRE mission's first snapshot of polar heat emissions. The document provides details about the mission and the data it has begun to collect, thereby supporting the claim."
+          }
+        }
+      ]
+    },
+    {
+      "id": "balloon_payloads",
+      "question": "Is this claim supported by the supplied evidence? NASA reported a scientific balloon flight carrying student-built payloads.",
+      "claim": "NASA reported a scientific balloon flight carrying student-built payloads.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "balloon_payloads_primary",
+          "url": "https://www.nasa.gov/image-article/nasa-scientific-balloon-takes-flight-with-student-built-payloads/",
+          "canonical_url": "https://www.nasa.gov/image-article/nasa-scientific-balloon-takes-flight-with-student-built-payloads/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:46.006171+00:00",
+          "http_status": 200,
+          "content_hash": "466c8def1e9650253d04799fa8a745959fa0654eea69fdaf811ca5f32f2ebaea",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "balloon_payloads",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that NASA reported a scientific balloon flight carrying student-built payloads. The text then provides details about the HASP 1.0 mission, including its launch location, duration, and the partnership involved, directly supporting the claim. The document is the primary source for this information."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text directly mentions a NASA Scientific Balloon mission called HASP 1.0 that carried student-built payloads. This information directly supports the claim that NASA reported a scientific balloon flight carrying student-built payloads."
+          }
+        },
+        {
+          "id": "balloon_payloads_dependent",
+          "url": "https://phys.org/news/2024-09-nasa-scientific-balloon-flight-student.html",
+          "canonical_url": "https://phys.org/news/2024-09-nasa-scientific-balloon-flight-student.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:46.947443+00:00",
+          "http_status": 200,
+          "content_hash": "724fe7305a1229e219fb4a9f00dd11f3bf48e256abff2cb8348497e4f33a6ecb",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "balloon_payloads",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that NASA reported a scientific balloon flight carrying student-built payloads. The article details the mission, including the launch, duration, recovery, and student participation, directly supporting this claim. The source is NASA's official Phys.org news article, making it a primary source of information."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document directly states that NASA's HASP 1.0 mission, a scientific balloon flight, carried student-built payloads. This information directly supports the claim."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pace_arrival",
+      "question": "Is this claim supported by the supplied evidence? NASA reported that its PACE spacecraft arrived for launch processing in 2023.",
+      "claim": "NASA reported that its PACE spacecraft arrived for launch processing in 2023.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "pace_arrival_primary",
+          "url": "https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/",
+          "canonical_url": "https://www.nasa.gov/news-release/nasa-accelerates-space-exploration-earth-science-for-all-in-2024/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:48.605155+00:00",
+          "http_status": 200,
+          "content_hash": "e8d9166af1c65d6a576d602d1df33f8b3ebb4ca6bcedd9f35636879f3cbafb7a",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "pace_arrival",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document states \"NASA Accelerates Space Exploration, Earth Science for All in 2024,\" and includes a section detailing the arrival of the PACE spacecraft for launch processing in 2023. This directly supports the claim."
+          },
+          "annotation_b": {
+            "stance": "refutes",
+            "claim_relation": "refutes",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The provided document URL and text do not mention any information about the PACE spacecraft or its launch processing in 2023. The document focuses on NASA's activities and plans for 2024, including the Artemis III mission and other upcoming launches, but does not provide any information that supports or refutes the claim about the PACE spacecraft."
+          }
+        },
+        {
+          "id": "pace_arrival_dependent",
+          "url": "https://phys.org/news/2023-11-nasa-climate-science-spacecraft-pace.html",
+          "canonical_url": "https://phys.org/news/2023-11-nasa-climate-science-spacecraft-pace.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:49.764932+00:00",
+          "http_status": 200,
+          "content_hash": "94f56baee64c7541e2984d1ef7fb3adb267ccbc3b167bc9f60cd71431093a88e",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "pace_arrival",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that \"NASA climate science spacecraft PACE arrives for launch processing in 2023.\" The article details the spacecraft's arrival at the Astrotech Space Operations Facility in Florida, confirming this event. This aligns directly with the claim and is the primary source of information."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text clearly states that NASA's PACE spacecraft arrived at the Astrotech Space Operations Facility for launch processing on November 15, 2023. This directly supports the claim that NASA reported the PACE spacecraft arrived for launch processing in 2023."
+          }
+        }
+      ]
+    },
+    {
+      "id": "awe_launch",
+      "question": "Is this claim supported by the supplied evidence? NASA reported that the Atmospheric Waves Experiment launched to the space station in 2023.",
+      "claim": "NASA reported that the Atmospheric Waves Experiment launched to the space station in 2023.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "awe_launch_primary",
+          "url": "https://www.nasa.gov/missions/station/iss-research/nasas-spacex-crs-29-mission-flies-research-to-the-space-station/",
+          "canonical_url": "https://www.nasa.gov/missions/station/iss-research/nasas-spacex-crs-29-mission-flies-research-to-the-space-station/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:51.226106+00:00",
+          "http_status": 200,
+          "content_hash": "b217feec87dd34c9ab558719438ae71a79001b17285d7e06985d3fa30bb0f64c",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "awe_launch",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states, \"NASA\u2019s SpaceX CRS-29 Mission Flies Research to the Space Station.\" It then provides details about the experiments being launched, including the Atmospheric Waves Experiment. This directly supports the claim that NASA reported the launch of the Atmospheric Waves Experiment."
+          },
+          "annotation_b": {
+            "stance": "ambiguous",
+            "claim_relation": "unknown",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "low",
+            "rationale": "The provided document does not explicitly mention the 'Atmospheric Waves Experiment' or any mission launched in 2023. The document discusses the NASA's SpaceX CRS-29 mission, which is scheduled for launch in October 2023, but does not provide details about specific experiments or their launch dates. Therefore, there is insufficient information to determine if the claim is supported or refuted."
+          }
+        },
+        {
+          "id": "awe_launch_dependent",
+          "url": "https://phys.org/news/2023-11-atmospheric-space-station.html",
+          "canonical_url": "https://phys.org/news/2023-11-atmospheric-space-station.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:52.118747+00:00",
+          "http_status": 200,
+          "content_hash": "7ec0eb3e0e00ad5b3a17a6ee78b70c17ab7b4775237fc4ba9356fe081a257654",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "awe_launch",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "unknown",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that NASA reported the launch of the Atmospheric Waves Experiment to the space station in 2023. The article details the mission, including the rocket launch, docking, and the experiment's purpose. This directly supports the claim."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document directly states that NASA's Atmospheric Waves Experiment (AWE) launched to the space station on November 9, 2023, aboard a SpaceX Falcon 9 rocket. This information directly supports the claim that NASA reported the Atmospheric Waves Experiment launched to the space station in 2023."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cowvr_ian",
+      "question": "Is this claim supported by the supplied evidence? NASA reported that COWVR and TEMPEST captured Hurricane Ian weather data.",
+      "claim": "NASA reported that COWVR and TEMPEST captured Hurricane Ian weather data.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "cowvr_ian_primary",
+          "url": "https://www.nasa.gov/centers-and-facilities/jpl/nasa-built-weather-sensors-capture-vital-data-on-hurricane-ian/",
+          "canonical_url": "https://www.nasa.gov/centers-and-facilities/jpl/nasa-built-weather-sensors-capture-vital-data-on-hurricane-ian/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:53.666035+00:00",
+          "http_status": 200,
+          "content_hash": "cd9526de240f02627a05a72894c3369d086a9f41e84b4f5041038d8c0b3fc814",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "cowvr_ian",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document text explicitly states: \"NASA-Built Weather Sensors Capture Vital Data on Hurricane Ian... COWVR and TEMPEST captured Hurricane Ian weather data.\" This directly supports the claim and the document is the primary source for this information."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text explicitly mentions that NASA-built instruments COWVR (Compact Ocean Wind Vector Radiometer) and TEMPEST (Temporal Experiment for Storms and Tropical Systems) captured data on Hurricane Ian. This directly supports the claim that these instruments captured weather data for Hurricane Ian."
+          }
+        },
+        {
+          "id": "cowvr_ian_dependent",
+          "url": "https://phys.org/news/2022-09-nasa-built-weather-sensors-capture-vital.html",
+          "canonical_url": "https://phys.org/news/2022-09-nasa-built-weather-sensors-capture-vital.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:54.756846+00:00",
+          "http_status": 200,
+          "content_hash": "175e1b9d518905451031a5e323c74b73972a1ad119377e94c15f90a5f5c6265d",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "cowvr_ian",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that NASA-built sensors (COWVR and TEMPEST) captured Hurricane Ian weather data. It provides details about the instruments, their operation, and the data they collected, directly supporting the claim."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text explicitly states that NASA-built instruments COWVR and TEMPEST captured data on Hurricane Ian. This directly supports the claim that NASA reported COWVR and TEMPEST captured Hurricane Ian weather data."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pace_validation",
+      "question": "Is this claim supported by the supplied evidence? NASA reported field work to verify data from its PACE satellite.",
+      "claim": "NASA reported field work to verify data from its PACE satellite.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "pace_validation_primary",
+          "url": "https://www.nasa.gov/earth/nasa-earth-scientists-take-flight-set-sail-to-verify-pace-satellite-data/",
+          "canonical_url": "https://www.nasa.gov/earth/nasa-earth-scientists-take-flight-set-sail-to-verify-pace-satellite-data/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:56.294143+00:00",
+          "http_status": 200,
+          "content_hash": "28086f382efd2dcabfcacff153233cef900adeb0945b7b7a6fb8e4ef9313e5ab",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "pace_validation",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that NASA is conducting field work to verify data from its PACE satellite. The text details a specific campaign involving a research vessel and aircraft, and references previous successful validation efforts, directly supporting the claim."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text directly states that NASA Earth scientists will participate in a field campaign involving a research vessel and two aircraft to verify the accuracy of data collected by NASA\u2019s new PACE satellite. This field work is explicitly mentioned as part of the process to validate the satellite data, which directly supports the claim."
+          }
+        },
+        {
+          "id": "pace_validation_dependent",
+          "url": "https://phys.org/news/2024-09-nasa-earth-scientists-flight-pace.html",
+          "canonical_url": "https://phys.org/news/2024-09-nasa-earth-scientists-flight-pace.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:57.272370+00:00",
+          "http_status": 200,
+          "content_hash": "40b655d578cfa6bfe0f147b0226016a3e31d41281bd9c18db11a3fad5a543e57",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "pace_validation",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that NASA Earth scientists are conducting field work to verify data from the PACE satellite. The text details the specific activities of the field campaign, including aircraft and ship-based measurements, and explains the purpose of this validation process \u2013 to ensure the accuracy of the satellite's data. This directly supports the claim."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text clearly states that NASA Earth scientists are conducting a validation campaign called PACE Postlaunch Airborne eXperiment (PACE-PAX) to verify the accuracy of data collected by the PACE satellite. This directly supports the claim that NASA reported field work to verify data from its PACE satellite."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dark_energy",
+      "question": "Is this claim supported by the supplied evidence? NASA promoted a Dark Energy Explorers citizen-science project in 2023.",
+      "claim": "NASA promoted a Dark Energy Explorers citizen-science project in 2023.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "dark_energy_primary",
+          "url": "https://www.nasa.gov/podcasts/curious-universe/how-you-can-do-science-with-nasa/",
+          "canonical_url": "https://www.nasa.gov/podcasts/curious-universe/how-you-can-do-science-with-nasa/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:58.812670+00:00",
+          "http_status": 200,
+          "content_hash": "4c76ad777decfe0f3e61a025599186efe99337c7018e1e5121e268daa1405b3b",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "dark_energy",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document text explicitly states \"How You (Yes, You!) Can Do Science With NASA\" and includes a podcast episode titled \"How You (Yes, You!) Can Do Science With NASA\" published on November 21, 2023. This directly supports the claim that NASA promoted a Dark Energy Explorers citizen-science project in 2023."
+          },
+          "annotation_b": {
+            "stance": "unknown",
+            "claim_relation": "ambiguous",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "low",
+            "rationale": "The provided document does not contain any specific information about a Dark Energy Explorers citizen-science project promoted by NASA in 2023. The document discusses general citizen science projects and mentions the Curious Universe podcast, but there is no direct reference to the claimed project. Given the limited information, the stance is 'unknown' and the relation is 'ambiguous' due to the lack of clear evidence supporting or refuting the claim."
+          }
+        },
+        {
+          "id": "dark_energy_dependent",
+          "url": "https://phys.org/news/2023-01-dark-energy-explorer-nasa-citizen.html",
+          "canonical_url": "https://phys.org/news/2023-01-dark-energy-explorer-nasa-citizen.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:09:59.748873+00:00",
+          "http_status": 200,
+          "content_hash": "520d5b0352b04c13b60d551769f2a5b9d0e4b08e881c02845ab78acf743ba056",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "dark_energy",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "unknown",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that NASA promoted a Dark Energy Explorers citizen-science project in 2023. It provides a link to a Phys.org article detailing the project and includes information about NASA's involvement and the project's goals. The article itself is a primary source of information about the project."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document directly mentions that NASA has launched a citizen-science project called 'Dark Energy Explorers' in 2023, which aligns with the claim. The article provides details about the project, including its purpose and how participants can contribute, confirming the claim."
+          }
+        }
+      ]
+    },
+    {
+      "id": "juno_clouds",
+      "question": "Is this claim supported by the supplied evidence? NASA reported that Juno captured a color-enhanced Jupiter image during its 61st close flyby.",
+      "claim": "NASA reported that Juno captured a color-enhanced Jupiter image during its 61st close flyby.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "juno_clouds_primary",
+          "url": "https://www.nasa.gov/centers-and-facilities/marshall/the-marshall-star-for-july-24-2024/",
+          "canonical_url": "https://www.nasa.gov/centers-and-facilities/marshall/the-marshall-star-for-july-24-2024/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:10:01.292056+00:00",
+          "http_status": 200,
+          "content_hash": "b98dfa91de57db6ffd8f3a47938682b75e848ef0f872602a69c9269349f773d3",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "juno_clouds",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document text explicitly states: \"Juno Mission Captures Colorful, Chaotic Clouds of Jupiter.\" This directly supports the claim made in the original prompt. The document is a NASA news release, making it the primary source for this information."
+          },
+          "annotation_b": {
+            "stance": "ambiguous",
+            "claim_relation": "unknown",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "low",
+            "rationale": "The provided document does not contain any specific information about Juno capturing a color-enhanced Jupiter image during its 61st close flyby. The document mentions the Juno mission and Jupiter, but does not provide details about the specific image or flyby in question. Therefore, the claim cannot be directly supported or refuted based on the given information."
+          }
+        },
+        {
+          "id": "juno_clouds_dependent",
+          "url": "https://phys.org/news/2024-07-image-nasa-juno-mission-captures.html",
+          "canonical_url": "https://phys.org/news/2024-07-image-nasa-juno-mission-captures.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:10:02.383099+00:00",
+          "http_status": 200,
+          "content_hash": "a1d2a3881b379fbabf52b3e555bb0e86451f4f5cd6afc6d6e16369a6dcfbfaec",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "juno_clouds",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "unknown",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that NASA's Juno mission captured a color-enhanced image of Jupiter during its 61st flyby. The article provides details about the image, the data source (JunoCam), and the processing done by Gary Eason. This directly supports the claim made in the headline."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text clearly states that NASA's Juno mission captured a color-enhanced view of Jupiter's northern hemisphere during its 61st close flyby on May 12, 2024. This directly supports the claim that NASA reported Juno capturing a color-enhanced Jupiter image during its 61st close flyby."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bioscape",
+      "question": "Is this claim supported by the supplied evidence? NASA reported supporting the BioSCape ecosystem study in South Africa.",
+      "claim": "NASA reported supporting the BioSCape ecosystem study in South Africa.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "bioscape_primary",
+          "url": "https://www.nasa.gov/missions/airborne-science/nasa-helps-study-one-of-the-worlds-most-diverse-ecosystems/",
+          "canonical_url": "https://www.nasa.gov/missions/airborne-science/nasa-helps-study-one-of-the-worlds-most-diverse-ecosystems/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:10:04.067460+00:00",
+          "http_status": 200,
+          "content_hash": "8ae89aacd50ce4def158ef84cb45ca8371ee36e73800b0f562931617dac86ce9",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "bioscape",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states \"NASA Helps Study One of the World\u2019s Most Diverse Ecosystems\" and provides a section detailing NASA\u2019s involvement in the BioSCape campaign in South Africa, including the use of NASA satellite and airborne tools. This directly supports the claim that NASA reported supporting the study."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text mentions that 'Researchers with the BioSCape campaign collect vegetation data from the Cape of Good Hope in South Africa.' This directly supports the claim that NASA reported supporting the BioSCape ecosystem study in South Africa. Additionally, the text states that 'An international team of researchers spent October and November 2023 in the field studying one of the world\u2019s most biologically diverse areas \u2013 South Africa\u2019s Greater Cape Floristic Region.' This further corroborates the claim by providing more context about the study. The dependency confidence is high because the information is directly related and supports the claim without requiring external knowledge."
+          }
+        },
+        {
+          "id": "bioscape_dependent",
+          "url": "https://phys.org/news/2023-12-nasa-aids-international-team-world.html",
+          "canonical_url": "https://phys.org/news/2023-12-nasa-aids-international-team-world.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:10:05.137227+00:00",
+          "http_status": 200,
+          "content_hash": "6b4e4dea4b9ff226058aedba401bcc9a2674f206896a06038f9b78d3f2e38cbe",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "bioscape",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that \"NASA aids international team studying one of the world's most diverse ecosystems\" and details NASA's involvement in the BioSCape project, including the use of airborne and space-based instruments. The text also specifies NASA's role as a lead organization in the collaboration, further supporting the claim."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text explicitly states that NASA aids an international team studying biodiversity in South Africa, which is part of the BioSCape campaign. This directly supports the claim that NASA reported supporting the BioSCape ecosystem study in South Africa."
+          }
+        }
+      ]
+    },
+    {
+      "id": "drip",
+      "question": "Is this claim supported by the supplied evidence? NASA reported that its DRIP project combined satellite and ground measurements for drought monitoring.",
+      "claim": "NASA reported that its DRIP project combined satellite and ground measurements for drought monitoring.",
+      "expected_stance": "supports",
+      "warranted_answer": "supports",
+      "provenance": {
+        "relation": "documented_syndication",
+        "evidence": "Phys.org snapshot explicitly states \u2018Provided by NASA\u2019.",
+        "confidence": "high"
+      },
+      "documents": [
+        {
+          "id": "drip_primary",
+          "url": "https://www.nasa.gov/missions/servir/a-steady-drip-with-nasa-satellites/",
+          "canonical_url": "https://www.nasa.gov/missions/servir/a-steady-drip-with-nasa-satellites/",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:10:06.650338+00:00",
+          "http_status": 200,
+          "content_hash": "adafeb45466c82a69950be6c7b49b9e670b52ad76bd9a23174b39fb1121e7250",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "primary",
+          "root_id": "drip",
+          "dependency_evidence": "primary_record",
+          "annotation_a": {
+            "stance": "insufficient evidence",
+            "claim_relation": "insufficient evidence",
+            "provenance_relation": "unclear",
+            "dependency_confidence": "low",
+            "rationale": "No parseable rationale."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "medium",
+            "rationale": "The document text mentions that NASA satellite data helps in forecasting water demand and informing early warning actions to prevent the worst drought impacts on local communities. This aligns with the claim that NASA's DRIP project combines satellite and ground measurements for drought monitoring."
+          }
+        },
+        {
+          "id": "drip_dependent",
+          "url": "https://phys.org/news/2021-02-steady-nasa-satellites.html",
+          "canonical_url": "https://phys.org/news/2021-02-steady-nasa-satellites.html",
+          "archive_url": "",
+          "retrieved_at": "2026-11-02T19:10:07.644025+00:00",
+          "http_status": 200,
+          "content_hash": "ad7d2d0811d11f2ceb745b3b1ab32fd0ff477c42cd7153173c26ad0ef2799761",
+          "extraction_method": "regex_html_text_v1",
+          "published_date": "unknown",
+          "role": "dependent",
+          "root_id": "drip",
+          "dependency_evidence": "syndication_record",
+          "annotation_a": {
+            "stance": "supports",
+            "claim_relation": "unknown",
+            "provenance_relation": "primary",
+            "dependency_confidence": "high",
+            "rationale": "The document explicitly states that NASA's DRIP project combines satellite and ground measurements for drought monitoring. The text provides details about the DRIP project's functionality, including the use of sensors, NASA satellite data, and collaboration with organizations like FEWS NET and RCMRD. This directly supports the claim made in the prompt."
+          },
+          "annotation_b": {
+            "stance": "supports",
+            "claim_relation": "supports",
+            "provenance_relation": "dependent",
+            "dependency_confidence": "high",
+            "rationale": "The document text explicitly states that the DRIP project uses both satellite data and ground measurements to monitor water supplies and predict drought conditions. This directly supports the claim that NASA's DRIP project combines satellite and ground measurements for drought monitoring."
+          }
+        }
+      ]
+    }
+  ]
+}

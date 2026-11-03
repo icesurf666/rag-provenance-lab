@@ -1,0 +1,30 @@
+{
+  "run_id": "v1-real-pilot-2026-11-02",
+  "models": [
+    "gemma3:4b",
+    "qwen2.5:7b-instruct"
+  ],
+  "runner": "Ollama 0.40.3",
+  "generation": {
+    "temperature": 0,
+    "seed": 20261103,
+    "num_predict": 160
+  },
+  "conditions": [
+    "primary_only",
+    "primary_plus_dependent",
+    "root_aware",
+    "conflict_preserving_root_aware"
+  ],
+  "known_budget_status": "not fixed-budget: primary_plus_dependent used two documents while other V1 conditions used one",
+  "source_hashes": {
+    "real_pilot.py": "f6527c0ba1c852ab53caf5ddf90996f13a54a0558f55c4ec10c0ebe39d2c4bbb",
+    "real_annotation.py": "c35e591e650eacedbf068c3187c7062ac9b2493b0faee42ee59e7e07d9187b43",
+    "real_evaluation.py": "a966cd147966f2937d8bad98bc1adfe3c6de61a9b72bd47a6a4773cd925fa914",
+    "pilot_results.jsonl": "1ba707d6ad5e94d13db06e7de6cf579af59f5e34b28b4bca5718d20a97f5ff9e"
+  },
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.3-arm64-arm-64bit"
+  }
+}
